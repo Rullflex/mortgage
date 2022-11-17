@@ -1,0 +1,92 @@
+.slideshow {
+
+}
+
+.slideshow.peppermint figure {
+
+}
+
+.slideshow.peppermint.peppermint-active .peppermint-slides>* {
+  padding: 0 12px;
+
+  @media (min-width: $tablet-breakpoint) {
+    padding: 0 20px;
+  }
+}
+
+.slideshow.peppermint figure img {
+  box-shadow: none;
+}
+
+.slideshow__image {
+  border-radius: $radius-medium;
+  overflow: hidden;
+}
+
+.slideshow__overlay-gradient {
+  width: calc(100% - 40px);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 31%, rgba(0, 0, 0, 0.4) 100%);
+  height: 100%;
+  position: absolute;
+  opacity: 1;
+  border-radius: $radius-medium;
+}
+
+.slideshow.peppermint.peppermint-active {
+  width: 95%;
+  overflow: visible;
+  margin: 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.slideshow .peppermint-slides {
+  padding: 0;
+}
+
+.slideshow ul.peppermint-dots > li {
+  padding: 5px;
+  width: 8px;
+  height: 4px;
+  text-align: left;
+  transition: width 0.3s ease-in-out;
+}
+
+.slideshow ul.peppermint-dots > li > span {
+  width: 8px;
+  height: 4px;
+  background: $color-green;
+  border-radius: 2px;
+  display: block;
+  margin: 0;
+  position: static;
+  transition: width 0.3s ease-in-out;
+}
+
+.slideshow ul.peppermint-dots > li.peppermint-active-dot {
+  width: 38px;
+}
+
+.slideshow ul.peppermint-dots > li.peppermint-active-dot > span {
+  margin: 0;
+  width: 38px;
+  height: 4px;
+  border: none;
+  background: $color-green;
+}
+
+.slideshow.peppermint.peppermint-active .peppermint-slides + ul.peppermint-dots {
+  display: none;
+
+  @media (min-width: $tablet-breakpoint) {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 12px;
+    display: block;
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "data_mortgage" : {
+
+
+
+    "title" : "Ипотека",
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Обзор",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "О комплексе",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "Выбрать квартиру",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "Ход строительства",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "Как купить",
+          "url" : "#",
+          "active" : true
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Как купить",
+          "url" : "#"
+        },
+        {
+          "name" : "Ипотека",
+          "url" : false
+        }
+      ]
+    }
+  }
+}

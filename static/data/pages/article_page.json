@@ -1,0 +1,201 @@
+{
+  "data_article": {
+
+
+
+    "title": "Жилые комплексы компании «Талан» попали в объектив московского фотографа",
+
+
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Талан журнал",
+          "url" : "#"
+        },
+        {
+          "name" : "Жилые комплексы компании «Талан» попали...",
+          "url" : false
+        }
+      ]
+    },
+
+
+
+    "share" : {
+      "text" : "поделиться",
+      "items" : [
+        {
+          "name" : "vkontakte",
+          "url" : "http://vk.com/share.php?url=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/article.html&title=Жилые+комплексы+компании&image=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/static/img/article/article-img-1.jpg"
+        },
+        {
+          "name" : "facebook",
+          "url" : "https://www.facebook.com/sharer/sharer.php?u=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/article.html"
+        },
+        {
+          "name" : "odnoklassniki",
+          "url" : "http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/article.html"
+        }
+      ],
+      "items_bottom" : [
+        {
+          "name" : "odnoklassniki",
+          "url" : "http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/article.html"
+        },
+        {
+          "name" : "vkontakte",
+          "url" : "http://vk.com/share.php?url=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/article.html&title=Жилые+комплексы+компании&image=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/static/img/article/article-img-1.jpg"
+        },
+        {
+          "name" : "facebook",
+          "url" : "https://www.facebook.com/sharer/sharer.php?u=http%3A//markup.com.dev11.vintagedev.com.ua/talan_vintage/article.html"
+        }
+      ]
+    },
+
+
+
+    "date": "28 октября 2017",
+
+    "tags": [
+      {
+        "name" : "объекты",
+        "url" : "#"
+      },
+      {
+        "name" : "недвижимость",
+        "url" : "#"
+      },
+      {
+        "name" : "комфорт",
+        "url" : "#"
+      }
+    ],
+
+    "views" : "3 456",
+
+
+
+
+    "img_split" : {
+      "img1" : {
+        "src" : "./static/img/article/article-imgs-1.jpg",
+        "alt" : ""
+      },
+      "img2" : {
+        "src" : "./static/img/article/article-imgs-2.jpg",
+        "alt" : ""
+      }
+    },
+
+
+
+    "video" : {
+      "image" : "./static/img/article/article-img-video.jpg",
+      "youtube_id" : "aEfjPtv8wPQ"
+    },
+
+
+
+
+    "slider" : {
+      "slides" : [
+        {
+          "src": "./static/img/article/article-img-slide-1.jpg",
+          "desc": "Прекрасный, незабываемый вид из окна ЖК «Горизонты. Европейский квартал». Непередаваемое зрелище, волшебно."
+        },
+        {
+          "src": "./static/img/article/article-img-slide-2.jpg",
+          "desc": "2. Прекрасный, незабываемый вид из окна ЖК «Горизонты. Европейский квартал». Непередаваемое зрелище, волшебно."
+        },
+        {
+          "src": "./static/img/article/article-img-slide-3.jpg",
+          "desc": "3. Прекрасный, незабываемый вид из окна ЖК «Горизонты. Европейский квартал». Непередаваемое зрелище, волшебно."
+        },
+        {
+          "src": "./static/img/article/article-img-slide-4.jpg",
+          "desc": "4. Прекрасный, незабываемый вид из окна ЖК «Горизонты. Европейский квартал». Непередаваемое зрелище, волшебно."
+        },
+        {
+          "src": "./static/img/article/article-img-slide-5.jpg",
+          "desc": "5. Прекрасный, незабываемый вид из окна ЖК «Горизонты. Европейский квартал». Непередаваемое зрелище, волшебно."
+        },
+        {
+          "src": "./static/img/article/article-img-slide-6.jpg",
+          "desc": "6. Прекрасный, незабываемый вид из окна ЖК «Горизонты. Европейский квартал». Непередаваемое зрелище, волшебно."
+        }
+      ]
+    },
+
+
+
+    "img_description" : {
+      "src" : "./static/img/article/article-img-3.jpg",
+      "desc" : "Прекрасный, незабываемый вид из окна ЖК «Горизонты. Европейский квартал»"
+    },
+
+
+
+    "articles" : {
+      "title" : "Похожие статьи",
+      "items" : [
+        {
+          "title" : "Открываем новые Горизонты",
+          "url" : "./article.html",
+          "date" : "05.01.2018",
+          "image" : "./static/img/journal/blog/3.jpg"
+        },
+        {
+          "title" : "Последние 27 квартир в Горизонтах!",
+          "url" : "./article.html",
+          "date" : "01.10.2017",
+          "image" : "./static/img/journal/blog/1.jpg"
+        },
+        {
+          "title" : "Опции при покупке квартиры — услуга от компании «Талан»",
+          "url" : "./article.html",
+          "date" : "01.11.2017",
+          "image" : "./static/img/journal/blog/2.jpg"
+        },
+        {
+          "title" : "Последние 27 квартир в Горизонтах!",
+          "url" : "./article.html",
+          "date" : "01.10.2017",
+          "image" : "./static/img/journal/blog/1.jpg"
+        }
+      ]
+    },
+
+
+
+
+    "questions" : {
+      "title_primary" : "Подпишитесь на наш блог чтоб узнавать",
+      "title_secondary" : "последние статьи компании Талан",
+      "form" : {
+        "action" : "/",
+        "fields" : {
+          "email" : {
+            "label" : "Ваш E-mail",
+            "error" : "Некорректный E-mail"
+          }
+        },
+        "agree" : {
+          "text" : "Даю <a href=\"#\">согласие</a> на обработку моих персональных данных, с условиями <a href=\"#\">Политики</a> ознакомлен"
+        },
+        "submit_btn" : {
+          "class" : "form__button",
+          "text" : "подписаться"
+        }
+      }
+    }
+
+
+
+  }
+}

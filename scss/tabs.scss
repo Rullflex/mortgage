@@ -1,0 +1,149 @@
+/* --------------------------------
+
+File#: _1_tabs
+Title: Tabs
+Descr: Tabs are multiple content sections (panels), accessible one at a time using control labels
+Usage: codyhouse.co/license
+
+-------------------------------- */
+
+
+.tabs {
+}
+
+.tabs__controls {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block; //flex fallback
+    margin: 0 16px 0 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    display: inline-flex;
+    background-color: var(--color-contrast-low);
+    padding: var(--space-xs) var(--space-sm);
+    white-space: nowrap;
+    color: inherit;
+    border-radius: var(--tabs-control-radius);
+
+    &:hover {
+      background-color: var(--color-contrast-lower);
+    }
+  }
+}
+
+.tabs__panel {
+  margin-bottom: var(--space-md);
+}
+
+.js {
+  .tabs__controls {
+    a {
+      text-decoration: none;
+    }
+
+    .tabs__control--selected {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+    }
+  }
+
+  .tabs__panel {
+    margin-bottom: 0;
+    display: none;
+  }
+
+  .tabs__panel--selected {
+    display: block;
+  }
+
+    .tabs {
+      padding: 0;
+      border: none;
+      background-color: transparent;
+    }
+
+    .tabs__controls {
+      margin-bottom: 0;
+
+      li {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      li:first-child {
+        margin-left: 0;
+      }
+
+      a {
+        @include tab-btn();
+      }
+
+      .tabs__control--selected {
+        @include tab-btn-active();
+      }
+    }
+
+    .tabs__controls--radio {
+      a {
+        border: 1px solid #d8d8d8;
+        color: $color-green;
+        background: transparent;
+        font-size: 16px;
+        line-height: 1;
+        border-radius: 6px;
+        padding: 12px 15px 14px 40px;
+        position: relative;
+
+        &::before {
+          content: '';
+          display: block;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          top: 12px;
+          left: 12px;
+          border: 1px solid #d8d8d8;
+          border-radius: 50%;
+          box-sizing: border-box;
+
+        }
+      }
+
+      .tabs__control--selected {
+        border: none;
+        color: #000000;
+        background: #fafafa;
+        font-size: 16px;
+        line-height: 1;
+        border-radius: 6px;
+        padding: 13px 16px 15px 41px;
+
+        &::after {
+          content: '';
+          display: block;
+          width: 12px;
+          height: 12px;
+          background: $color-green;
+          border-radius: 50%;
+          position: absolute;
+          top: 16px;
+          left: 16px;
+        }
+      }
+    }
+
+    .tabs__panels {
+      border: var(--tabs-border-width) solid var(--color-contrast-low);
+      border-radius: 0 var(--tabs-radius) var(--tabs-radius) var(--tabs-radius);
+      background-color: var(--color-bg);
+    }
+}

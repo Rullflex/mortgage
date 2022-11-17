@@ -1,0 +1,135 @@
+{
+  "data_gk_perm_dominant" : {
+
+
+    "title" : "ЖК Пермь Доминант",
+
+
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Обзор",
+          "url" : "#"
+        },
+        {
+          "name" : "О комплексе",
+          "url" : "#"
+        },
+        {
+          "name" : "Выбрать квартиру",
+          "url" : "#",
+          "active" : true
+        },
+        {
+          "name" : "Ход строительства",
+          "url" : "#"
+        },
+        {
+          "name" : "Как купить",
+          "url" : "#"
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Тихий центр"
+        }
+      ]
+    },
+
+    "head" : {
+      "title" : "Тихий центр",
+      "percent" : 80,
+      "text" : "Готовность корпуса №2"
+    },
+
+
+    "lists": {
+
+      "items" : [
+        {
+          "name" : " Выбор дома ",
+          "active" : true
+        },
+        {
+          "name" : " Выбор квартиры "
+        },
+        {
+          "name" : " Выбор отделки "
+        }
+      ]
+    },
+
+    "house_box": {
+      "img-bg" : " ./static/img/gk-map/perm-dominant-gk.jpg ",
+      "houses" : [
+        {
+          "house" : "1",
+          "number" : " 1 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-domin-1.svg ",
+          "address" : " первая секция "
+        },
+        {
+          "house" : "2",
+          "number" : " 2 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-domin-2.svg ",
+          "address" : " вторая секция "
+        },
+        {
+          "house" : "3",
+          "number" : " 3 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-domin-3.svg ",
+          "address" : " третья секция "
+        },
+        {
+          "house" : "4",
+          "number" : " 4 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-domin-4.svg ",
+          "address" : " чертвертая секция "
+        }
+      ]
+    },
+    "description" : [
+      {
+        "number" : " 1 ",
+        "address" : " первая секция "
+      },
+      {
+        "number" : " 2 ",
+        "address" : " вторая секция "
+      },
+      {
+        "number" : " 3 ",
+        "address" : " третья секция "
+      },
+      {
+        "number" : " 4 ",
+        "address" : " четвертая секция "
+      }
+    ],
+
+
+    "question" : true
+  }
+}

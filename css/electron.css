@@ -1,0 +1,152 @@
+@media screen and (min-width: 1201px) {
+  .invest-button {
+    margin-top: unset!important;
+    margin: auto auto!important;
+    color: #343434;
+  }
+  .invest-block {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .invest-title {
+    width: 100%;
+    max-width: 100%!important;
+    text-align: center!important;
+  }
+  .invest-desc {
+    max-width: 50%!important;
+  }
+  .invest-title, .invest-desc {
+    padding: 8px!important;
+    margin: 0!important;
+  }
+  .invest-desc-wrap {
+    max-width: 50%!important;
+  }
+  .invest-button {
+    margin-top: unset!important;
+    margin: auto auto!important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .invest-block {
+    position: relative;
+  }
+  .invest-title {
+    width: 100%;
+    max-width: 100%!important;
+    text-align: center!important;
+  }
+  .invest-desc-wrap {
+    width: 100%!important;
+    max-width: 100%!important;
+  }
+  .invest-title {
+    padding: 8px!important;
+    margin: 0!important;
+  }
+  .invest-desc {
+    padding: 0;
+    margin: 0!important;
+  }
+  .invest-button {
+    margin: 15px auto!important;
+  }
+}
+
+.invest-block {
+  width: 100%;
+  background: #E7A83D;
+}
+.catalog-invest-block {
+  width: 100%;
+  background: #E7A83D;
+  z-index: 9;
+  position: relative;
+}
+.invest-title {
+  font-size: 20px!important;
+  font-weight: bold;
+  text-align: center;
+  line-height: normal;
+}
+.invest_content {
+  display: flex;flex-wrap: wrap;
+  height: 100%;
+ /* min-height: 190px;*/
+}
+.invest-desc-wrap {
+  background: #F3BA58;
+  max-width: 30%;
+}
+.invest-desc {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 0;
+  min-width: 100%;
+}
+
+.invest-title, .invest-desc {
+  /*flex-grow: 1;*/
+  flex-wrap: nowrap;
+  padding: 8px;
+  max-width: 30%;
+  margin: auto!important;
+}
+
+.down {
+  bottom: 150px!important;
+}
+.invest-button {
+  height: 50px;
+  padding: 12px!important;
+}
+
+.ajax-popup {
+  background: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  min-width: 250px;
+  width: fit-content;
+}
+.ajax-popup-left-col {
+  float: left;
+  width: 100px;
+  white-space: nowrap;
+  line-height: 30px;
+}
+.ajax-popup-right-col {
+  margin-left: 100px;
+  white-space: nowrap;
+  text-align: right;
+  line-height: 30px;
+}
+.ajax-popup-date {
+  white-space: nowrap;
+}
+.ajax-popup-date .date {
+  display: inline-block;
+  color: #1e9b57;
+}
+.ajax-popup-header {
+  color: #1e9b57;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.ajax-popup-header-text {
+  font-weight: bold;
+  font-size: 12px;
+}
+.ajax-popup hr {
+  width: 25%;
+  border: none;
+  height: 2px;
+  background-color: #555;
+  text-align: left;
+  float: left;
+}

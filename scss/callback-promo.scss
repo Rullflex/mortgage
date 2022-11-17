@@ -1,0 +1,242 @@
+.callback-promo {
+  @include page-inner();
+}
+
+.callback-promo--question {
+  max-width: 1126px;
+  margin-top: 40px;
+}
+
+.callback-promo--object {
+  margin-top: 40px;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin-top: 20px;
+  }
+}
+
+.callback-promo__inner {
+  background: $color-green;
+  border-radius: $radius-medium;
+  color: $color-white;
+  display: flex;
+  padding: 28px 12px 37px;
+  align-items: flex-start;
+  min-height: 138px;
+  box-sizing: border-box;
+  flex-direction: column;
+
+  @media (min-width: $tablet-breakpoint) {
+    padding: 38px 23px 40px;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    padding: 19px 40px;
+    flex-direction: row;
+    align-items: center;
+
+  }
+}
+
+.callback-promo__success {
+  width: 100%;
+  text-align: center;
+}
+
+.callback-promo__inner--question {
+  padding: 52px 53px 36px 48px;
+  align-items: flex-start;
+}
+
+.callback-promo__description {
+  padding-left: 76px;
+  position: relative;
+  flex: 36.32% 0 0;
+  box-sizing: border-box;
+  margin-right: 5px;
+  min-height: 54px;
+
+  @media (min-width: $tablet-breakpoint) {
+    padding-left: 102px;
+    margin-right: 6.88%;
+
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    padding-left: 126px;
+  }
+}
+
+.callback-promo__description--question {
+  flex: 33.07% 0 0;
+  box-sizing: content-box;
+  padding-top: 6px;
+}
+
+.callback-promo__image {
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  left: 0;
+  top: -6px;
+
+  @media (min-width: $tablet-breakpoint) {
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    margin-top: -40px;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    margin-top: -50px;
+  }
+}
+
+.callback-promo__description--question .callback-promo__image {
+  top: -13px;
+  margin-top: 0;
+}
+
+.callback-promo__title {
+  font-family: $heading-font;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.18em;
+
+  @media (min-width: $tablet-breakpoint) {
+    @include heading-4();
+  }
+}
+
+.callback-promo__paragraph {
+  margin: 5px 0 0;
+  font-size: 10px;
+  line-height: 1.4em;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+}
+
+.callback-promo__paragraph--success {
+  margin: 10px 0 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin: 13px 0 0;
+  }
+}
+
+.callback-promo__form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  button {
+    width: 100%;
+    margin-top: 18px;
+
+    @media (min-width: $tablet-breakpoint) {
+      width: 27.5%;
+      margin-top: 0;
+    }
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    flex-direction: row;
+    margin-top: 26px;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    flex: 56.8% 0 0;
+    max-width: 56.8%;
+    flex-direction: row;
+    margin-top: 0;
+  }
+}
+
+.callback-promo__form--question {
+  flex: 1;
+  flex-wrap: wrap;
+
+  button {
+    margin-top: 24px;
+    width: 62.2%;
+  }
+}
+
+.callback-promo__input {
+  margin-top: 18px;
+
+  &:first-child {
+    margin-top: 21px;
+
+    @media (min-width: $tablet-breakpoint) {
+      margin-top: 0;
+    }
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    margin-top: 0;
+    width: 30.76%;
+    padding-right: 30px;
+  }
+}
+
+.callback-promo--question .callback-promo__input {
+  flex: 1;
+}
+
+.callback-promo--question .callback-promo__input + .callback-promo__input {
+  padding: 0;
+}
+
+.callback-promo__textarea {
+  margin-top: 24px;
+}
+
+.callback-promo__consent {
+  width: 100%;
+  position: relative;
+  margin-top: 17px;
+}
+
+.callback-promo__checkbox {
+  display: none;
+}
+
+.callback-promo__checkbox:checked + .callback-promo__custom-checkbox {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 3.5l4 3L10.5 1' stroke='%2345A56B' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.callback-promo__custom-checkbox {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border-radius: 5px;
+  background: $color-white;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.callback-promo__checkbox-label {
+  font-size: 10px;
+  line-height: 1.4em;
+  padding-left: 22px;
+  display: block;
+}

@@ -1,0 +1,41 @@
+.radial-progress {
+  position: relative;
+}
+
+.radial-progress__text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+
+  @media (min-width: $tablet-breakpoint) {
+    line-height: 50px;
+  }
+}
+
+.radial-progress__progress {
+  transform: rotate(-90deg);
+  display: block;
+
+  @media (min-width: $tablet-breakpoint) {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.radial-progress__meter {
+  stroke-width: 3;
+  fill: none;
+  stroke: $color-bg-green;
+}
+
+.radial-progress__value {
+  stroke-width: 3;
+  fill: none;
+  stroke: $color-green;
+  stroke-linecap: round;
+  stroke-dasharray: 144.5132;
+}

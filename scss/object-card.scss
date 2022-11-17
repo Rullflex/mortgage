@@ -1,0 +1,157 @@
+.object-card {
+  border-radius: $radius-medium;
+  box-shadow: $object-shadow;
+  overflow: hidden;
+
+  &__image {
+    position: relative;
+  }
+
+  &__badges {
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+
+    padding: 0 24px 10px;
+    display: flex;
+    gap: 16px;
+
+    overflow: auto;
+
+    > * {
+      flex-shrink: 0;
+      font-size: 12px;
+    }
+  }
+}
+
+.object-card__img {
+  display: block;
+  width: 100%;
+  height: 288px;
+
+  object-fit: cover;
+}
+
+.object-card__info {
+  padding: 24px;
+  min-height: 244px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-breakpoint) {
+    padding: 24px;
+    min-height: 222px;
+  }
+}
+
+.object-card__title-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin-bottom: 12px;
+  }
+}
+
+.object-card__radial-progress {
+  margin-left: 19px;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin-top: -10px;
+  }
+}
+
+.object-card__title {
+  @include heading-4();
+  color: $color-green;
+  word-break: break-word;
+  line-height: 1.2em;
+
+  @media (max-width: ($tablet-breakpoint - 1px)) {
+    font-size: 16px;
+  }
+}
+
+.object-card__additional {
+  margin-top: auto;
+}
+
+.object-card__deadline {
+  font-size: 14px;
+  font-weight: 500;
+  color: #979797;
+  margin: 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: 16px;
+  }
+}
+
+.object-card__deadline-value {
+  color: #343434;
+}
+
+.object-card__price-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: column;
+  margin-top: 3px;
+
+  @media (min-width: $tablet-breakpoint) {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+}
+
+.object-card__price {
+  color: #343434;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 10px 0 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: 24px;
+  }
+}
+
+.object-card__price-value {
+  color: $color-green;
+  white-space: nowrap;
+}
+
+.object-card__warn-message {
+  font-size: 12px;
+  font-weight: 500;
+  color: #d95454;
+  margin: 5px 0 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: 14px;
+  }
+}
+
+.object-card__actions {
+  display: flex;
+  margin: 17px 0 0;
+  flex-direction: column;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin: 24px 0 0;
+  }
+}
+
+.object-card__action {
+  flex: 1;
+  margin-top: 4px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    margin-top: 0;
+  }
+}

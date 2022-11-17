@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="300" viewBox="0 0 107 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0e8d5d;
+        fill-rule: evenodd;
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <path id="дом_1_секция_1" data-name="дом 1 секция 1" class="cls-1" d="M257,377l-9-122L237,127l2-21,26-8,13,5,8-4,30,12,22,10,6,112-11,5-8-4-47,21,7,143" transform="translate(-237 -98)"/>
+</svg>

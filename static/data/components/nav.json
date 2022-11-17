@@ -1,0 +1,96 @@
+{
+
+  "nav": [
+    {
+        "name": "О компании",
+        "url": "./about.html"
+    },
+    {
+        "name": "Недвижимость",
+        "url": "./apartments.html"
+    },
+    {
+        "name": "Партнерам",
+        "url": "#"
+    },
+    {
+        "name": "Журнал",
+        "url": "./journal.html"
+    },
+    {
+        "name": "Контакты",
+        "url": "#"
+    }
+  ],
+
+
+  "cities": {
+    "active" : "Ижевск",
+    "items" : [
+      {
+        "name": "Санкт-Петербург",
+        "url": "#"
+      },
+      {
+        "name": "Москва",
+        "url": "#"
+      },
+      {
+        "name": "Екатеринбург",
+        "url": "#"
+      },
+      {
+        "name": "Нижний Новгород",
+        "url": "#"
+      }
+    ]
+  },
+
+
+  "socials" : [
+    {
+      "name" : "instagram",
+      "url" : "https://www.instagram.com/talan_tyumen"
+    },
+    {
+      "name" : "odnoklassniki",
+      "url" : "https://ok.ru/profile/588185280058 "
+    },
+    {
+      "name" : "vkontakte",
+      "url" : "https://vk.com/talan_tyumen"
+    },
+    {
+      "name" : "facebook",
+      "url" : "https://www.facebook.com/profile.php?id=100022990113201&ref=bookmarks"
+    },
+    {
+      "name" : "appstore",
+      "url" : "https://itunes.apple.com/ru/app/%D1%82%D0%B0%D0%BB%D0%B0%D0%BD/id1403758335?mt=8"
+    },
+    {
+      "name" : "play",
+      "url" : "https://play.google.com/store/apps/details?id=ru.napoleonit.talan_client&hl=ru"
+    }
+  ],
+
+
+  "subnav" : [
+    {
+      "name" : "Опрос",
+      "url" : "#"
+    },
+    {
+      "name" : "заявка на гарантию",
+      "url" : "#"
+    },
+    {
+      "name" : "как купить",
+      "url" : "#"
+    },
+    {
+      "name" : "инвестирование в недвижимость",
+      "url" : "#"
+    }
+  ]
+}

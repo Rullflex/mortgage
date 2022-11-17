@@ -1,0 +1,27 @@
+.tln-badge {
+  height: auto;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 16px;
+
+  font-family: $font-inter;
+  font-size: 12px;
+  line-height: 24px;
+
+  // light (default)
+  background: #ffffff;
+  color: #979797;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  &__value {
+    color: $color-dark;
+  }
+}

@@ -1,0 +1,86 @@
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: #fff;
+    background-color: #dc3545;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+.badge:empty {
+    display: none;
+}
+
+.disable-width {
+    width: inherit !important;
+}
+
+.toast-success {
+    background-color: #45a56b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    opacity: .8;
+    border-radius: 8px;
+}
+.toast-success::before {
+    border-bottom-color: #45a56b;
+}
+
+header .popup::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 37px;
+    width: 10px;
+    height: 10px;
+    background-color:
+            #FFFE;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+header .popup {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 100;
+    background-color:
+            transparent;
+    padding: 0;
+    width: auto;
+}
+.geolocation_popup {
+    z-index: 100 !important;
+}
+.popup {
+    width: 528px;
+    background-color: #FFFE;
+    padding: 57px 50px 60px;
+}
+header .popup__inner {
+    background-color:
+            #FFF;
+    width: 333px;
+    border-radius: 28px;
+    padding: 25px 15px 30px 30px;
+}
+header .popup__question {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: none;
+    letter-spacing: 0.1px;
+    margin-bottom: 4px;
+}
+@media (min-width: 801px) {
+    .header__phone {
+        width: 140px;
+    }
+}

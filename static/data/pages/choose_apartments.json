@@ -1,0 +1,268 @@
+{
+  "data_choose_apartments" : {
+
+
+    "title" : "Выбор квартиры",
+
+
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Обзор",
+          "url" : "#"
+        },
+        {
+          "name" : "О комплексе",
+          "url" : "#"
+        },
+        {
+          "name" : "Выбрать квартиру",
+          "url" : "#",
+          "active" : true
+        },
+        {
+          "name" : "Ход строительства",
+          "url" : "#"
+        },
+        {
+          "name" : "Как купить",
+          "url" : "#"
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+
+    },
+
+
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Тихий центр"
+        }
+      ]
+    },
+
+
+
+    "head" : {
+      "title" : "Тихий центр",
+      "percent" : 80,
+      "text" : "Готовность корпуса №2"
+    },
+
+
+
+    "filters" : {
+
+      "rooms" : {
+        "title" : "Комнаты:",
+        "items" : [
+          {
+            "text" : "1",
+            "active" : true
+          },
+          {
+            "text" : "3",
+            "active" : true
+          },
+          {
+            "text" : "2",
+            "active" : false
+          },
+          {
+            "text" : "4",
+            "active" : true
+          }
+        ]
+      },
+
+      "area" : {
+        "title" : "Площадь:",
+        "min" : 20,
+        "max" : 200,
+        "from" : 60,
+        "to" : 180,
+        "text_from" : "от",
+        "text_to" : "до",
+        "postfix" : "м²"
+      },
+
+      "price" : {
+        "title" : "Цена:",
+        "min" : 12400000,
+        "max" : 100000000,
+        "from" : 31200000,
+        "to" : 70000000,
+        "text_from" : "от",
+        "text_to" : "до",
+        "postfix" : "руб"
+      },
+
+      "floor" : {
+        "title" : "Этаж:",
+        "items" : [
+          {
+            "text" : "1",
+            "active" : true
+          },
+          {
+            "text" : "2",
+            "active" : true
+          },
+          {
+            "text" : "3",
+            "active" : true
+          },
+          {
+            "text" : "4",
+            "active" : true
+          }
+        ]
+      },
+
+      "type" : {
+        "title" : "Для кого:",
+        "items" : [
+          {
+            "text" : "Молодая семья",
+            "icon" : "young-family",
+            "value" : "1",
+            "active" : true
+          },
+          {
+            "text" : "Для пенсионера",
+            "icon" : "old",
+            "value" : "2",
+            "active" : true
+          },
+          {
+            "text" : "Холостяк",
+            "icon" : "man",
+            "value" : "3",
+            "active" : true
+          },
+          {
+            "text" : "Большая семья",
+            "icon" : "big-family",
+            "value" : "4",
+            "active" : false
+          }
+        ]
+      }
+    },
+
+
+
+    "apartaments_list" : [
+      {
+        "title" : "Горизонты. Европейский квартал, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-1.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-2.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Горизонты. Европейский квартал, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-3.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-4.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-1.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-6.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 31, этаж 9",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-hover.png",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 90, этаж 15",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-8.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "image" : "./static/img/apartments/apartaments-stub.png"
+      }
+    ],
+
+
+
+    "pagination" : {
+      "items" : [
+        {
+          "text" : "...",
+          "url" : "#"
+        },
+        {
+          "text" : "17",
+          "url" : "#"
+        },
+        {
+          "text" : "18",
+          "url" : "#"
+        },
+        {
+          "text" : "19",
+          "url" : "#"
+        },
+        {
+          "text" : "20",
+          "url" : "#"
+        },
+        {
+          "text" : "21",
+          "url" : "#"
+        }
+      ]
+    },
+
+
+
+    "question" : true
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "data_gk_perm_hapinness" : {
+
+
+    "title" : "ЖК Пермь Счастье",
+
+
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Обзор",
+          "url" : "#"
+        },
+        {
+          "name" : "О комплексе",
+          "url" : "#"
+        },
+        {
+          "name" : "Выбрать квартиру",
+          "url" : "#",
+          "active" : true
+        },
+        {
+          "name" : "Ход строительства",
+          "url" : "#"
+        },
+        {
+          "name" : "Как купить",
+          "url" : "#"
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Тихий центр"
+        }
+      ]
+    },
+
+    "head" : {
+      "title" : "Тихий центр",
+      "percent" : 80,
+      "text" : "Готовность корпуса №2"
+    },
+
+
+    "lists": {
+
+      "items" : [
+        {
+          "name" : " Выбор дома ",
+          "active" : true
+        },
+        {
+          "name" : " Выбор квартиры "
+        },
+        {
+          "name" : " Выбор отделки "
+        }
+      ]
+    },
+
+    "house_box": {
+      "img-bg" : " ./static/img/gk-map/perm-hapinnes-gk.jpg ",
+      "houses" : [
+        {
+          "house" : "1",
+          "number" : " 1 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-happ-1.svg ",
+          "address" : " первая секция "
+        },
+        {
+          "house" : "2",
+          "number" : " 2 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-happ-2.svg ",
+          "address" : " вторая секция "
+        },
+        {
+          "house" : "3",
+          "number" : " 3 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-happ-3.svg ",
+          "address" : " третья секция "
+        },
+        {
+          "house" : "4",
+          "number" : " 4 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-happ-4.svg ",
+          "address" : " чертвертая секция "
+        },
+        {
+          "house" : "5",
+          "number" : " 5 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-happ-5.svg ",
+          "address" : " пятая секция "
+        },
+        {
+          "house" : "6",
+          "number" : " 6 ",
+          "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/gk-map/svg/perm-happ-6.svg ",
+          "address" : " шестая секция "
+        }
+      ]
+    },
+    "description" : [
+      {
+        "number" : " 1 ",
+        "address" : " первая секция "
+      },
+      {
+        "number" : " 2 ",
+        "address" : " вторая секция "
+      },
+      {
+        "number" : " 3 ",
+        "address" : " третья секция "
+      },
+      {
+        "number" : " 4 ",
+        "address" : " четвертая секция "
+      },
+      {
+        "number" : " 5 ",
+        "address" : " пятая секция "
+      },
+      {
+        "number" : " 6 ",
+        "address" : " шестая секция "
+      }
+    ],
+
+
+    "question" : true
+  }
+}

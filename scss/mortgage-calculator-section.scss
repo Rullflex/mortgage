@@ -1,0 +1,172 @@
+.mortgage-calculator-section {
+  font-family: $font-inter;
+  margin: 20px 0;
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    margin: 60px 0;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    margin: 80px 0;
+  }
+
+  &__inner {
+    @include page-inner;
+  }
+
+  &__title {
+    @include heading-3;
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    margin: 16px 0 32px;
+    font-size: 12px;
+    line-height: 1.5;
+
+    @media (min-width: $tablet-breakpoint) {
+      margin: 16px 0 32px;
+      font-size: 16px;
+      line-height: 2;
+    }
+  }
+
+  &__tabs-controls {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+
+    > * {
+      scroll-snap-align: center;
+    }
+  }
+
+  &__tabs-panels {
+    margin-top: 32px;
+  }
+
+  &__tabs-panel-inner-wrap {
+    display: grid;
+    gap: 32px;
+
+    @media (min-width: $desktop-breakpoint) {
+      grid-auto-columns: 1fr;
+      grid-auto-flow: column;
+    }
+  }
+}
+
+.mortgage-calculator {
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 24px;
+
+  &__field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__field-label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2.5;
+    letter-spacing: -0.01em;
+    color: #414042;
+
+    @media (min-width: $tablet-breakpoint) {
+      font-size: 16px;
+    }
+  }
+}
+
+.mortgage-numbers {
+  $self: &;
+  padding: 24px;
+
+  background: #f2f7fb;
+  border-radius: 24px;
+
+  &--green {
+    background: $color-green;
+
+    #{$self}__title,
+    #{$self}__item-value {
+      color: white;
+    }
+
+    #{$self}__item-label {
+      color: #a2d2b5;
+    }
+  }
+
+  &__title {
+    margin-bottom: 8px;
+
+    font-family: $heading-font;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.5;
+    color: $color-dark;
+
+    @media (min-width: $tablet-breakpoint) {
+      line-height: 2;
+      font-size: 24px;
+    }
+  }
+
+  &__numbers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__item-label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #979797;
+
+    @media (min-width: $tablet-breakpoint) {
+      font-size: 16px;
+    }
+  }
+
+  &__item-value {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.67;
+    letter-spacing: 0.01em;
+    color: #414042;
+
+    @media (min-width: $tablet-breakpoint) {
+      font-size: 24px;
+    }
+
+    &--large {
+      font-family: $heading-font;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 1.2;
+      color: $color-dark;
+
+      @media (min-width: $tablet-breakpoint) {
+        font-size: 40px;
+      }
+    }
+  }
+}

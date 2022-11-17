@@ -1,0 +1,273 @@
+{
+  "data_sec_housing_details" : {
+
+
+
+    "title" : "Вторичное жилье",
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Жилая недвижимость",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "квартиры",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "Комерческая недвижимость",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "Вторичное жилье",
+          "url" : "#",
+          "active" : true
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Вторичное жилье",
+          "url" : false
+        }
+      ]
+    },
+
+    "poster" : {
+      "title" : " Вторичное жилье ",
+      "subtitle_line1": "За покупку квартир мы принимаем вторичное жилье, и реализовываем его. ",
+      "subtitle_line2" : "Не готовы купить новую квартиру? Вторичное жилье может оказаться хорошей альтернативой.",
+      "video" : "./static/video/bg.mp4",
+      "image" : "./static/img/home/poster-bg.jpg",
+      "button" : {
+        "text" : "Смотреть вторичное жилье",
+        "url" : "./apartments.html"
+      },
+      "scrolldown_text" : "вниз"
+    },
+
+    "values" : {
+      "title" : "Лучшие условия для наших клиентов",
+      "items" : [
+        {
+          "title" : "Безопасность сделок",
+          "number" : "01",
+          "text" : "Ежемесячный доход от аренды даже по минимальной арендной ставке составит не менее 65 000 рублей (от 27% годовых).",
+          "image" : "./static/img/commercial/values-img-1.jpg"
+        },
+        {
+          "title" : "Оформление бесплатно",
+          "number" : "02",
+          "text" : "Размещение в выгодном месте, при пересечении транспортных потоков, станет преимуществом в бизнесе.",
+          "image" : "./static/img/commercial/values-img-2.jpg"
+        },
+        {
+          "title" : "Бесплатный просмотр",
+          "number" : "03",
+          "text" : "Качество наших помещений оставляет только лучшее впечатление у арендаторов.",
+          "image" : "./static/img/commercial/values-img-3.jpg"
+        }
+      ]
+    },
+
+    "apartment": {
+      "content": "Цена на вторичную недвижимость вас удивит, а наш сервис и принципы работы не оставят вас равнодушными: мы заинтересованы в покупке, поэтому сделаем все, чтоб вам было комфортно",
+      "url": "#",
+      "submit_text": "выбрать квартиру"
+    },
+
+    "filters" : {
+
+      "area" : {
+        "title" : "Площадь:",
+        "min" : 20,
+        "max" : 200,
+        "from" : 30,
+        "to" : 120,
+        "text_from" : "от",
+        "text_to" : "до",
+        "postfix" : "м²"
+      },
+
+      "price" : {
+        "title" : "Цена:",
+        "min" : 12400000,
+        "max" : 100000000,
+        "from" : 250000,
+        "to" : 700000000,
+        "text_from" : "от",
+        "text_to" : "до",
+        "postfix" : "руб"
+      },
+
+      "floor" : {
+        "title" : "Этаж:",
+        "items" : [
+          {
+            "text" : "1",
+            "active" : true
+          },
+          {
+            "text" : "3",
+            "active" : true
+          },
+          {
+            "text" : "3",
+            "active" : true
+          },
+          {
+            "text" : "4",
+            "active" : true
+          }
+        ]
+      }
+    },
+    "apartaments_list" : [
+      {
+        "title" : "Горизонты. Европейский квартал, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-1.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-2.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Горизонты. Европейский квартал, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-3.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 31, этаж 9",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-hover.png",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 90, этаж 15",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-8.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "image" : "./static/img/apartments/apartaments-stub.png"
+      }
+    ],
+    "pagination" : {
+      "items" : [
+        {
+          "text" : "...",
+          "url" : "#"
+        },
+        {
+          "text" : "17",
+          "url" : "#"
+        },
+        {
+          "text" : "18",
+          "url" : "#"
+        },
+        {
+          "text" : "19",
+          "url" : "#"
+        },
+        {
+          "text" : "20",
+          "url" : "#"
+        },
+        {
+          "text" : "21",
+          "url" : "#",
+          "active" : true
+        }
+      ]
+    },
+
+    "articles" : {
+      "items" : [
+
+        {
+          "title" : "Последние 27 квартир в Горизонтах!",
+          "text" : "Создаем среду, в которой дома, где благоприятная обстановка и единая социальная среда делает лучше не только вашу жизнь, но и вас самих.",
+          "url" : "./article.html",
+          "date" : "01.11.2017",
+          "tags" : [
+            {
+              "name" : "объекты",
+              "url" : "#"
+            },
+            {
+              "name" : "недвижимость",
+              "url" : "#"
+            },
+            {
+                "name" : "Комфорт",
+                "url" : "#"
+              }
+          ],
+          "image" : "./static/img/journal/blog/1.jpg"
+        },
+        {
+          "title" : "Последние 27 квартир в Горизонтах!",
+          "text" : "Мы помогаем людям перейти на качественно новый уровень жизни - продуманные пространства для действительно удобной жизни горожан.",
+          "url" : "./article.html",
+          "date" : "08.11.2017",
+          "tags" : [
+            {
+              "name" : "недвижимость",
+              "url" : "#"
+            }
+          ],
+          "image" : "./static/img/journal/blog/2.jpg"
+        },
+        {
+          "title" : "Открываем новые Горизонты",
+          "text" : "Каждый день единая команда талантливых людей создают новый уровень жизни для тысяч семей по все стране. Мы строим будущее.",
+          "url" : "./article.html",
+          "date" : "05.01.2018",
+          "tags" : [
+            {
+              "name" : "объекты",
+              "url" : "#"
+            },
+            {
+              "name" : "комфорт",
+              "url" : "#"
+            }
+          ],
+          "image" : "./static/img/journal/blog/3.jpg"
+        }
+      ]
+    }
+  }
+}

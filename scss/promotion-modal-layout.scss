@@ -1,0 +1,38 @@
+.promotion-modal-layout {
+  @include page-inner();
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-breakpoint) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  iframe {
+    max-width: 100%;
+
+    @media (min-width: $tablet-breakpoint) {
+      max-width: initial;
+    }
+  }
+}
+
+.promotion-modal-layout__image {
+
+  @media (min-width: $tablet-breakpoint) {
+    flex: 0 1 31.4%;
+    margin-right: 20px;
+  }
+}
+
+.promotion-modal-layout__img {
+  display: block;
+  width: 100%;
+}
+
+.promotion-modal-layout__content {
+
+  @media (min-width: $tablet-breakpoint) {
+    flex: 0 1 64.93%
+  }
+}

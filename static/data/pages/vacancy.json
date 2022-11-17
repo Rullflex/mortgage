@@ -1,0 +1,50 @@
+{
+  "data_vacancy" : {
+
+
+
+    "title" : "Вакансии",
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Компания",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "Команда",
+          "url" : "#",
+          "active" : false
+        },
+        {
+          "name" : "Карьера",
+          "url" : "#",
+          "active" : true
+        }
+      ]
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "О компании",
+          "url" : "#"
+        },
+        {
+          "name" : "Карьера",
+          "url" : "#"
+        },
+        {
+          "name" : "Вакансии",
+          "url" : false
+        }
+      ]
+    }
+  }
+}

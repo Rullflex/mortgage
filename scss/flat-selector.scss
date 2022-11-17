@@ -1,0 +1,97 @@
+.flat-selector {
+  border-radius: $radius-medium;
+  box-shadow: $object-shadow;
+  background: $color-white;
+  overflow: hidden;
+
+  @media (min-width: $desktop-breakpoint) {
+    max-width: 74.26%;
+  }
+}
+
+.flat-selector__header {
+  padding: 20px 18px 18px;
+
+  @media (min-width: $desktop-breakpoint) {
+    padding: 27px 30px 20px;
+  }
+}
+
+.flat-selector__filter-btn {
+  appearance: none;
+  background: none;
+  padding: 0 16px;
+  margin: 0 0 0 12px;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  height: 30px;
+  line-height: 30px;
+  color: $color-green;
+  cursor: pointer;
+
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 15px;
+
+  }
+}
+
+.flat-selector__filter-btn.mixitup-control-active {
+  background: $color-green;
+  color: $color-white;
+  border-radius: 15px;
+}
+
+.flat-selector__body {
+  display: flex;
+  border-top: 1px solid #e2e2e2;
+  max-height: 469px;
+
+  @media (min-width: $desktop-breakpoint) {
+    max-height: 600px;
+  }
+}
+
+.flat-selector__flats-grid {
+  flex: 0 0 50%;
+  overflow-y: auto;
+}
+
+.flat-selector__flats-list-title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 11px 15px 9px;
+}
+
+.flat-selector__flats-list {
+  flex: 0 0 50%;
+  border-left: 1px solid #e2e2e2;
+  display: flex;
+  flex-direction: column;
+}
+
+.flat-selector__footer {
+  border-top: 1px solid #e2e2e2;
+  margin-top: auto;
+  padding: 19px 0 20px 16px;
+}
+
+.flat-selector__show-all-flats {
+  font-size: 15px;
+  font-weight: 500;
+  color: $color-green;
+  text-decoration: none;
+
+  &:hover {
+    color: transparentize($color-green, 0.3);
+  }
+
+  &::after {
+    content: '';
+    display: inline-block;
+    margin-left: 9px;
+    width: 10px;
+    height: 10px;
+    background: url(../img/icon-arrow-right.svg) 0 0 no-repeat;
+  }
+}

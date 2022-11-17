@@ -1,0 +1,73 @@
+.flat-selector-section {
+  background: #f9f9f9;
+  padding: 36px 0 30px;
+
+  @media (min-width: $tablet-breakpoint) {
+    padding: 67px 0 60px;
+  }
+}
+
+.flat-selector-section__inner {
+  @include page-inner();
+}
+
+.flat-selector-section__tab {
+
+}
+
+.flat-selector-section .tabs__panels {
+  margin-top: 19px;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin-top: 25px;
+  }
+}
+
+.js .flat-selector-section .tabs__controls a {
+  font-family: $heading-font;
+  font-weight: 500;
+  font-size: 20px;
+  background: transparent;
+  padding: 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: 30px;
+    text-decoration: underline;
+    background: transparent;
+    color: $color-green;
+
+    &:hover {
+      color: transparentize($color-green, 0.3);
+    }
+  }
+}
+
+.js .flat-selector-section .tabs__controls .tabs__control--selected {
+  color: #343434;
+  text-decoration: none;
+}
+
+.js .flat-selector-section .tabs__controls .tabs__control--selected:hover {
+  color: #343434;
+  text-decoration: none;
+}
+
+.js .flat-selector-section .flat-selector-section__layout-tab {
+  display: none;
+
+  @media (min-width: $tablet-breakpoint) {
+    display: inline-block;
+  }
+}
+
+.js .tabs__panel--selected.flat-selector-section__flat-chooser-tab-panel {
+  @media (max-width: $tablet-breakpoint) {
+    display: none;
+  }
+}
+
+.js .tabs__panel.flat-selector-section__unit-chooser-tab-panel {
+  @media (max-width: $tablet-breakpoint) {
+    display: block;
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "data_estate_catalog": {
+
+
+    "title": "Каталог недвижимости",
+
+
+
+    "header_submenu": {
+
+      "items": [{
+          "name": "Жилая недвижимость",
+          "url": "#",
+          "active": true
+        },
+        {
+          "name": "квартиры",
+          "url": "#"
+        },
+        {
+          "name": "Комерческая недвижимость",
+          "url": "#"
+        }
+      ],
+
+      "link": {
+        "text": "Заказать звонок",
+        "url": "#"
+      }
+    },
+
+    "breadcrumbs": {
+      "items": [{
+          "name": "Главная",
+          "url": "#"
+        },
+        {
+          "name": "Недвижимость",
+          "url": "#"
+        },
+        {
+          "name": "Жилая недвижимость"
+        }
+      ]
+    },
+
+    "complecs": {
+      "items" : [
+        {
+          "title" : "Горизонты. Европейский квартал",
+          "image" : "./static/img/catalogue/flat.jpg"
+        },
+        {
+          "title" : "Горизонты. Европейский квартал",
+          "image" : "./static/img/catalogue/flat.jpg"
+        },
+        {
+          "title" : "Тихий",
+          "image" : "./static/img/catalogue/flat.jpg"
+        }
+      ]
+    },
+
+    "done_projects" : {
+      "title" : "Реализованные проекты",
+      "subTitle" : "Мы построили более 15 ЖК по всей России в которых неизменным остается кофорт жильцов",
+      "items" : [
+        {
+          "title" : "Мечтатели",
+          "text" : "Красивый дом с видом на пруд и квартирами без «лишних метров»",
+          "image" : "./static/img/about/values_card-img-1.jpg"
+        },
+        {
+          "title" : "Мечтатели",
+          "text" : "Красивый дом с видом на пруд и квартирами без «лишних метров»",
+          "image" : "./static/img/about/values_card-img-1.jpg"
+        },
+        {
+          "title" : "Мечтатели",
+          "text" : "Красивый дом с видом на пруд и квартирами без «лишних метров»",
+          "image" : "./static/img/about/values_card-img-1.jpg"
+        }
+      ]
+    },
+
+    "question": true
+  }
+}

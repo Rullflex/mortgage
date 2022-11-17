@@ -1,0 +1,64 @@
+.filter-form {
+  box-shadow: $object-shadow;
+  border-radius: $radius-medium;
+  padding: 20px 20px 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 18px 20px 0;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    display: block;
+  }
+}
+
+.filter-form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100%;
+
+  @media (min-width: $tablet-breakpoint) {
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+  }
+}
+
+.filter-form__fieldset--price,
+.filter-form__fieldset--square {
+  @media (min-width: $tablet-breakpoint) {
+    width: 50%;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    width: 100%;
+  }
+}
+
+.filter-form__fieldset:first-child .filter-form__title {
+  margin-top: 0;
+}
+
+.filter-form__tabs-list {
+  margin-top: -7px;
+}
+
+.filter-form__title {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 25px 0 0;
+}
+
+.filter-form__summary {
+  border-top: 1px solid #E2E2E2;
+  padding: 14px 20px 26px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 23px -20px 0;
+  width: 100%;
+}

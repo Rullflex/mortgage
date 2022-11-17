@@ -1,0 +1,1825 @@
+{
+  "data_choose_apartments_2_2": {
+
+
+    "title": "Выбор квартиры",
+
+
+
+    "header_submenu": {
+
+      "items": [{
+          "name": "Обзор",
+          "url": "#"
+        },
+        {
+          "name": "О комплексе",
+          "url": "#"
+        },
+        {
+          "name": "Выбрать квартиру",
+          "url": "#",
+          "active": true
+        },
+        {
+          "name": "Ход строительства",
+          "url": "#"
+        },
+        {
+          "name": "Как купить",
+          "url": "#"
+        }
+      ],
+
+      "link": {
+        "text": "Заказать звонок",
+        "url": "#"
+      }
+    },
+
+    "breadcrumbs": {
+      "items": [{
+          "name": "Главная",
+          "url": "#"
+        },
+        {
+          "name": "Недвижимость",
+          "url": "#"
+        },
+        {
+          "name": "Тихий центр"
+        }
+      ]
+    },
+
+    "head": {
+      "title": "Тихий центр",
+      "percent": 80,
+      "text": "Готовность корпуса №2"
+    },
+
+
+    "lists": {
+
+      "items": [{
+          "name": " Выбор дома ",
+          "href": " ./choose-apartments-1_2.html "
+        },
+        {
+          "name": " Выбор квартиры ",
+          "active": true
+        },
+        {
+          "name": " Выбор отделки "
+        }
+      ]
+    },
+    "flat_box": [{
+        "description": " свободна "
+      },
+      {
+        "class": "-booked",
+        "description": " забронирована "
+      },
+      {
+        "class": "-sold",
+        "description": " продана "
+      }
+    ],
+
+    "picture": {
+      "img": " ./static/img/choose_apartments/section-img.png "
+    },
+
+    "section": [{
+        "name": " секция 1 ",
+        "floors": [{
+            "number": " 1 ",
+            "flats": [
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 2 ",
+            "flats": [
+              {
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "1,5",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 3 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 4 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 5 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 6 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "1",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 7 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 8 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "4",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 9 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 10 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "4",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 11 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 12 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "3",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "description": {
+                  "rooms": "1",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": " секция 2 ",
+        "floors": [{
+            "number": " 1 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 2 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "1",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 3 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "2",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 4 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 5 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 6 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "booked": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "1",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 7 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 8 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "4",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 9 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          },
+          {
+            "number": " 10 ",
+            "flats": [{
+                "sold": true
+              },
+              {
+                "description": {
+                  "rooms": "4",
+                  "src" : "./static/img/choose_apartments/flat.png",
+                  "title" : "Однокомнатная квартира",
+                  "price" : "234545",
+                  "area" : "34 м²",
+                  "status" : "Свободна"
+                }
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              },
+              {
+                "sold": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+          "name": " секция 1 ",
+          "floors": [{
+              "number": " 1 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 2 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "1,5",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 3 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "2",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 4 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 5 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 6 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "1",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 7 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 8 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "4",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 9 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 10 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "4",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 11 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 12 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "3",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "description": {
+                    "rooms": "1",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": " секция 2 ",
+          "floors": [{
+              "number": " 1 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 2 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "1",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 3 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "2",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 4 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 5 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 6 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "booked": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "1",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 7 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 8 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "4",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 9 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            },
+            {
+              "number": " 10 ",
+              "flats": [{
+                  "sold": true
+                },
+                {
+                  "description": {
+                    "rooms": "4",
+                    "src" : "./static/img/choose_apartments/flat.png",
+                    "title" : "Однокомнатная квартира",
+                    "price" : "234545",
+                    "area" : "34 м²",
+                    "status" : "Свободна"
+                  }
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                },
+                {
+                  "sold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "name": " секция 1 ",
+            "floors": [{
+                "number": " 1 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 2 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "1,5",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 3 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "2",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 4 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 5 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 6 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "1",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 7 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 8 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "4",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 9 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 10 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "4",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 11 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 12 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "3",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "description": {
+                      "rooms": "1",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": " секция 2 ",
+            "floors": [{
+                "number": " 1 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 2 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "1",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 3 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "2",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 4 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 5 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 6 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "booked": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "1",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 7 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 8 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "4",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "234545",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 9 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              },
+              {
+                "number": " 10 ",
+                "flats": [{
+                    "sold": true
+                  },
+                  {
+                    "description": {
+                      "rooms": "4",
+                      "src" : "./static/img/choose_apartments/flat.png",
+                      "title" : "Однокомнатная квартира",
+                      "price" : "от 234 545 р",
+                      "area" : "34 м²",
+                      "status" : "Свободна"
+                    }
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  },
+                  {
+                    "sold": true
+                  }
+                ]
+              }
+            ]
+          }
+    ],
+
+
+
+
+
+    "question": true
+  }
+}

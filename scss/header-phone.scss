@@ -1,0 +1,23 @@
+.header-phone {
+
+}
+
+.header-phone__phone {
+  @include allcaps();
+  color: $color-green;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  &:hover {
+    color: transparentize($color-green, 0.3);
+  }
+}
+
+.header-phone__hours {
+  font-size: 10px;
+  color: #a1a1a1;
+  display: block;
+  font-weight: 500;
+  line-height: 10px;
+  margin-top: 3px;
+}

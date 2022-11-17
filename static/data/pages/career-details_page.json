@@ -1,0 +1,118 @@
+{
+  "data_career_details" : {
+
+    "title" : "Карьера",
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : " компания ",
+          "url" : "#"
+        },
+        {
+          "name" : " команда ",
+          "url" : "#"
+        },
+        {
+          "name" : " карьера ",
+          "url" : "#",
+          "active" : true
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : " Главная ",
+          "url" : "#"
+        },
+        {
+          "name" : " О компании ",
+          "url" : "#"
+        },
+        {
+          "name" : " Карьера "
+        }
+      ]
+    },
+
+    "poster" : {
+      "title" : " Карьера ",
+      "subtitle_line1": " Комфортые условия не только для жильцов но и для сотрудников компании, и работа для нас настоящее призвание. ",
+      "video" : "./static/video/bg.mp4",
+      "image" : "./static/img/career/career-bg.jpg",
+      "button" : {
+        "text" : " Смотреть все вакансии ",
+        "url" : "./vacancy.html"
+      },
+      "scrolldown_text" : "вниз"
+    },
+
+    "director" : {
+      "name" : "Макаров Константин Михайлович",
+      "title" : "Генеральный директор ООО \"Управляющая компания \"ТАЛАН\"\"",
+      "text" : "Мы горим любимым делом, с радостью приходим на работу, мы ценим честность и сами поступаем честно с партнерами. Ведь мы строим новые современные дома. Мы понимаем и умеем сделать лучше! Ведь мы делаем важное дело для тысяч семей по всей России. Мы дарим комфорт и уют собственного дома.",
+      "image" : "./static/img/about/director.jpg"
+    },
+
+    "how_to_buy" : {
+      "title" : " Специализации ",
+      "items" : [
+        {
+          "title" : " Маркетинг и продажи ",
+          "image" : "./static/img/career/partners/partn-item1.jpg",
+          "color" : "#22a662"
+        },
+        {
+          "title" : " Строительство и проектирование ",
+          "image" : "./static/img/career/partners/partn-item2.jpg",
+          "color" : "#f9b851"
+        },
+        {
+          "title" : " Юридический ",
+          "image" : "./static/img/career/partners/partn-item3.jpg",
+          "color" : "#5c9637"
+        },
+        {
+          "title" : " Экономика ",
+          "image" : "./static/img/career/partners/partn-item4.jpg",
+          "color" : "#d0a379"
+        },
+        {
+          "title" : " Финансы ",
+          "image" : "./static/img/career/partners/partn-item5.jpg",
+          "color" : "#5c9637"
+        },
+        {
+          "title" : " Офис ",
+          "image" : "./static/img/career/partners/partn-item6.jpg",
+          "color" : "#22a662"
+        },
+        {
+          "title" : " Топ менеджмент ",
+          "image" : "./static/img/career/partners/partn-item7.jpg",
+          "color" : "#5c9637"
+        },
+        {
+          "title" : " Айти ",
+          "image" : "./static/img/career/partners/partn-item8.jpg",
+          "color" : "#22a662"
+        },
+        {
+          "title" : " Развитие и инновации ",
+          "image" : "./static/img/career/partners/partn-item9.jpg",
+          "color" : "#f9b851"
+        }
+      ]
+    }
+
+  }
+}

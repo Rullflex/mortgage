@@ -1,0 +1,462 @@
+{
+  "data_realtors":{
+
+    "title": "Риелторам",
+
+    "header_submenu" : {
+      "items" : [
+        {
+          "name" : "Покупка земли",
+          "url" : "#"
+        },
+        {
+          "name" : "Риелторам",
+          "url" : "#",
+          "active" : true
+        },
+        {
+          "name" : "Тендеры",
+          "url" : "#"
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "/"
+        },
+        {
+          "name" : "Партнерам",
+          "url" : "/"
+        },
+        {
+          "name" : "Риелторам"
+        }
+      ]
+    },
+
+    "intro_realtors": {
+      "title": "Риелторам",
+      "img": {
+        "src": "static/img/realtors/realtors.jpg",
+        "alt": "realtors_pic"
+      },
+      "content": {
+        "description": {
+          "text": "Талан строит и успешно продает комфортное жильё нового уровня. Компания начала свою деятельность 15 лет назад в Ижевске. Сегодня Талан ведёт строительство в городах Пермь, Уфа, Ижевск, Набережные Челны, Тверь, Хабаровск, Тюмень. Мы гордимся городами, в которых ведем проектирование и строительство, создавая условия для лучшей жизни людей. Мы приходим надолго."
+        },
+        "download":{
+          "path_to_file": "static/img/realtors/realtors.jpg",
+          "text": "Загрузить презентацию"
+        },
+        "btn": {
+          "text": "Оставить заявку"
+        }
+      }
+    },
+
+    "statistics" : {
+      "items" : [
+        {
+          "number" : "15",
+          "title" : "Лет работы",
+          "text" : "Мы не компания однодневка, мы здесь надолго."
+        },
+        {
+          "number" : "7",
+          "title" : "Городов России",
+          "text" : "Мы региональная динамичная компания."
+        },
+        {
+          "number" : "82",
+          "title" : "Построеных дома",
+          "text" : "Мы продалжаем дарить уют и комфорт домов все большему количеству людей."
+        }
+      ]
+    },
+
+    "partners": {
+      "title": "Партнеры",
+      "slider": {
+        "slides": [
+          {
+            "img": {
+              "src": "./static/img/partners/1.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/2.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/3.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/4.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/5.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/6.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/7.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/8.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/1.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/2.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/3.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/4.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          },
+          {
+            "img": {
+              "src": "./static/img/partners/5.png",
+              "alt": "logo",
+              "title": "partner_logo"
+            },
+            "info_partner": {
+              "name": "Агентство недвижимости «Империя»",
+              "address": "УР, г.Ижевск, ул. Труда, 12",
+              "phone": {
+                "number": "+7 (3412) 798-003"
+              },
+              "site": {
+                "link": "https://www.google.com.ua/"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "download_app":{
+      "title": "Скачать приложение",
+      "items": [
+        {
+          "img": {
+            "src": "static/img/realtors/iphone_1.png",
+            "alt": "iphone",
+            "title": "phone"
+          }
+        },
+        {
+          "img": {
+            "src": "static/img/realtors/iphone_2.png",
+            "alt": "iphone",
+            "title": "phone"
+          }
+        }
+      ],
+      "text_items": [
+        {
+          "text": "Приложение это революция в работе с риэлторами, выход на новый уровень."
+        },
+        {
+          "text": "Вся работа в одном удобном приложении в любой точке. Зарегистриуйтесь и убедитесь сами."
+        }
+      ],
+      "download": {
+        "path_to_file": "static/img/realtors/iphone_2.png",
+        "text": "Загрузить инструкцию к приложению"
+      },
+      "btns": [
+        {
+          "btn": {
+            "href": "https://www.apple.com/retail/",
+            "text": "Apple store"
+          }
+        },
+        {
+          "btn": {
+            "href": "https://www.apple.com/retail/",
+            "text": "Google play"
+          }
+        }
+      ]
+    },
+
+    "form_contact" : {
+      "title": "Хотите сотрудничать по продаже недвижимости, отправьте заявку",
+      "text": "Для получения доступа в систему и для приложения отправьте нам ваши данные. Мы в ближайшее время рассмотрим и дадим ответ. Спасибо за сотрудничество.",
+      "user_info": {
+        "name": {
+          "label": "Ваше имя",
+          "error": "Введите Ваше имя"
+        },
+        "phone": {
+          "label": "Телефон",
+          "error": "Введите Ваш Телефон"
+        }
+      },
+      "company_info": {
+        "name": {
+          "label": "Ваше агенство",
+          "error": "Введите имя агенства"
+        },
+        "phone": {
+          "label": "Телефон руководителя",
+          "error": "Введите Ваш Телефон"
+        }
+      },
+      "ask_filed": {
+        "label": "Ваш вопрос"
+      },
+      "checkbox": {
+        "text" : "Даю <a href=\"#\">согласие</a> на обработку моих персональных данных, с условиями <a href=\"#\">Политики</a> ознакомлен"
+      },
+      "btn": {
+        "submit_text": "отправить"
+      },
+      "manager": {
+        "image": "./static/img/article-manager.jpg",
+        "name": "Рамиль Хамитов",
+        "title": "Менеджер",
+        "phone": "+7 (3412) 918-742"
+      }
+    },
+
+    "download_presentation": {
+      "title": "Скачать презентации",
+      "presentations": [
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        },
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        },
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        },
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        },
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        },
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        },
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        },
+        {
+          "file": {
+            "href": "./static/img/article-manager.jpg",
+            "src": "./static/img/constructor/file.png",
+            "file_name": "Документ  (PDF 3.4 mb)"
+          }
+        }
+      ]
+    }
+  }
+}

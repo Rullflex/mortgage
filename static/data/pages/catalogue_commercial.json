@@ -1,0 +1,386 @@
+{
+  "data_catalogue_commercial": {
+
+
+
+    "title": "Коммерческая недвижимость",
+
+
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Коммерческая недвижимость"
+        }
+      ]
+    },
+
+
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "жилая недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "квартиры",
+          "url" : "#"
+        },
+        {
+          "name" : "Коммерческая недвижимость",
+          "url" : "#",
+          "active" : true
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+
+    },
+
+
+
+    "poster" : {
+      "video" : "./static/video/bg.mp4",
+      "image" : "./static/img/catalogue-commercial/poster.jpg",
+      "title" : "Коммерческая недвижимость",
+      "scrolldown_text" : "вниз",
+      "form" : false,
+      "button" : {
+        "class" : "button_transparent",
+        "text" : "Скачать презентацию"
+      }
+    },
+
+    "head" : {
+      "title" : "Жилые комплексы"
+    },
+
+    "complecs" : {
+      "items" : [
+        {
+          "title" : "Горизонты. Европейский квартал",
+          "url" : "./apartment.html",
+          "image" : "./static/img/catalogue/img-1.jpg",
+          "percent" : 80,
+          "text" : "Готовность второй очереди. Осталось 45 квартир "
+        },
+        {
+          "title" : "Тихий",
+          "url" : "./apartment.html",
+          "image" : "./static/img/catalogue/img-2.jpg",
+          "percent" : 10,
+          "text" : "Готовность второй очереди. Осталось 145 квартир "
+        },
+        {
+          "title" : "Тихий",
+          "url" : "./apartment.html",
+          "image" : "./static/img/catalogue/img-2.jpg",
+          "percent" : 20,
+          "text" : "Готовность второй очереди. Осталось 145 квартир "
+        },
+        {
+          "title" : "Горизонты. Европейский квартал",
+          "url" : "./apartment.html",
+          "image" : "./static/img/catalogue/img-1.jpg",
+          "percent" : 40,
+          "text" : "Готовность второй очереди. Осталось 145 квартир "
+        }
+      ],
+      "button-text": "все жилые комплексы"
+    },
+
+    "profit" : {
+      "title" : "Почему комерческая недвижимость так выгодна",
+      "items" : [
+        {
+          "title" : "Высокий доход от аренды",
+          "text" : "Ежемесячный доход от аренды даже по минимальной арендной ставке составит не менее 65 000 рублей (от 27% годовых).",
+          "image" : "./static/img/catalogue-commercial/img-1.jpg",
+          "counter" : "01"
+        },
+        {
+          "title" : "Прекрасное месторасположение недвижимости",
+          "text" : "Размещение в выгодном месте, при пересечении транспортных потоков, станет преимуществом в бизнесе.",
+          "image" : "./static/img/catalogue-commercial/img-2.jpg",
+          "counter" : "02"
+        },
+        {
+          "title" : "Выгодные условия покупки",
+          "text" : "Качество наших помещений оставляет только лучшее впечатление у арендаторов.",
+          "image" : "./static/img/catalogue-commercial/img-3.jpg",
+          "counter" : "03"
+        },
+        {
+          "title" : "Стабильный пасивный доход",
+          "text" : "Пасивный доход всего через несколько месяцев после покупки.",
+          "image" : "./static/img/catalogue-commercial/img-4.jpg",
+          "counter" : "04"
+        },
+        {
+          "title" : "Постоянный поток клиентов",
+          "text" : "Недвижимость прямо в жилом комплексе имеет ряд преимуществ поскольку комплекс уже предполагает наличие потока людей.",
+          "image" : "./static/img/catalogue-commercial/img-5.jpg",
+          "counter" : "05"
+        },
+        {
+          "title" : "Быстрый старт",
+          "text" : "Проложенные коммуникации и черновая отделка под ремонт ускорят получение прибыли.",
+          "image" : "./static/img/catalogue-commercial/img-6.jpg",
+          "counter" : "06"
+        }
+      ]
+    },
+
+    "filters" : {
+
+      "rooms" : {
+        "title" : "ЖК:",
+        "items" : [
+          {
+            "text" : "Тихий центр",
+            "check" : "checked"
+          },
+          {
+            "text" : "горизонты"
+          },
+          {
+            "text" : "горизонты"
+          },
+          {
+            "text" : "горизонты"
+          },
+          {
+            "text" : "Тихий центр"
+          },
+          {
+            "text" : "горизонты"
+          }
+        ]
+      },
+
+      "area" : {
+        "title" : "Площадь:",
+        "min" : 20,
+        "max" : 200,
+        "from" : 60,
+        "to" : 180,
+        "text_from" : "от",
+        "text_to" : "до",
+        "postfix" : "м²"
+      },
+
+      "price" : {
+        "title" : "Цена:",
+        "min" : 12400000,
+        "max" : 100000000,
+        "from" : 31200000,
+        "to" : 70000000,
+        "text_from" : "от",
+        "text_to" : "до",
+        "postfix" : "руб"
+      },
+
+      "floor" : {
+        "title" : "Этаж:",
+        "items" : [
+          {
+            "text" : "1",
+            "active" : true
+          },
+          {
+            "text" : "3",
+            "active" : true
+          },
+          {
+            "text" : "3",
+            "active" : true
+          },
+          {
+            "text" : "4",
+            "active" : true
+          }
+        ]
+      },
+
+      "type" : {
+        "title" : "Для кого:",
+        "items" : [
+          {
+            "text" : "Молодая семья",
+            "icon" : "young-family",
+            "value" : "1",
+            "active" : true
+          },
+          {
+            "text" : "Для пенсионера",
+            "icon" : "old",
+            "value" : "2",
+            "active" : true
+          },
+          {
+            "text" : "Холостяк",
+            "icon" : "man",
+            "value" : "3",
+            "active" : true
+          },
+          {
+            "text" : "Большая семья",
+            "icon" : "big-family",
+            "value" : "4",
+            "active" : false
+          }
+        ]
+      }
+    },
+
+    "apartment_title" : "Подберите помещение по параметрам",
+
+    "apartaments_list" : [
+      {
+        "title" : "Горизонты. Европейский квартал, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-1.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-2.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Горизонты. Европейский квартал, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-3.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-4.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-1.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 243",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-6.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 31, этаж 9",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-hover.png",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "title" : "Тихий центр, квартира 90, этаж 15",
+        "url" : "./apartment.html",
+        "image" : "./static/img/apartments/apartaments-8.jpg",
+        "price" : "от 234 545 р",
+        "area" : "34 м²"
+      },
+      {
+        "image" : "./static/img/apartments/apartaments-stub.png"
+      }
+    ],
+
+
+
+    "pagination" : {
+      "items" : [
+        {
+          "text" : "...",
+          "url" : "#"
+        },
+        {
+          "text" : "17",
+          "url" : "#"
+        },
+        {
+          "text" : "18",
+          "url" : "#"
+        },
+        {
+          "text" : "19",
+          "url" : "#"
+        },
+        {
+          "text" : "20",
+          "url" : "#"
+        },
+        {
+          "text" : "21",
+          "url" : "#"
+        }
+      ]
+    },
+
+
+    "questions" : {
+      "title" : "Готовы обсудить покупку комерческой недвижимости",
+      "text" : "Оставьте свои данные и напишите интересующий вопрос. Наши менеджеры как можно оперативнее свяжутся с вами, и квалифицированно проконсультируют.",
+      "fields" : {
+        "name" : {
+          "label" : "Ваше имя",
+          "error" : "name error"
+        },
+        "phone" : {
+          "label" : "Телефон",
+          "error" : "phone error"
+        },
+        "email" : {
+          "label" : "E-mail",
+          "error" : "email error"
+        },
+        "question" : {
+          "label" : "Ваш вопрос"
+        }
+      },
+      "submit_text" : "Отправить",
+      "reset_text" : "Отправить еще",
+      "agree" : {
+        "text" : "Соглашаюсь на",
+        "link" : {
+          "text" : "обработку персональных данных",
+          "url" : "#"
+        }
+      },
+      "success" : {
+        "title" : "Спасибо!",
+        "text" : "Ваша заявка успешно отправлена. Наш менеджер свяжется с Вами в ближайшее время."
+      },
+      "manager" : {
+        "name" : "Рамиль Хамитов",
+        "image" : "./static/img/article-manager.jpg",
+        "title" : "Менеджер",
+        "phone" : "+7 (3412) 918-742"
+      }
+    }
+  }
+}

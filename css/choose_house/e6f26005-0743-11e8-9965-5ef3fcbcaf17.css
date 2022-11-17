@@ -1,0 +1,828 @@
+
+.choose-house {
+    padding-top: inherit !important;
+    padding-bottom: inherit !important;
+}
+
+.choose-house__lists {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    counter-reset: heading;
+    border-top: 1px solid rgba(52, 52, 52, 0.1);
+    border-bottom: 1px solid rgba(52, 52, 52, 0.1);
+    margin-bottom: 30px
+}
+
+.choose-house__items {
+    color: rgba(52, 52, 52, 0.5);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 69px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none
+}
+
+.choose-house__items::before {
+    counter-increment: heading;
+    content: counter(heading) ". "
+}
+
+.choose-house__items--active {
+    color: #22a662;
+    border-bottom: 1px solid #22a662
+}
+
+.choose-house__items:nth-child(1) {
+    pointer-events: all
+}
+
+@media (min-width: 1201px) {
+    .choose-house__img-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .choose-house__box {
+        width: 70% !important;
+        position: relative
+    }
+}
+
+@media (max-width: 1200px) {
+    .choose-house__img-box {
+        width: 100%;
+        height: auto;
+        position: relative
+    }
+
+    .choose-house__box {
+        width: 100%;
+        position: relative
+    }
+}
+
+.choose-house__img-bg {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto
+}
+
+.choose-house__house {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s
+}
+
+.choose-house__house:hover {
+    opacity: 1;
+    transition: opacity 0.3s
+}
+
+.choose-house__house--1 {
+    top: 93px;
+    right: 121px
+}
+
+.choose-house__house--2 {
+    top: 228px;
+    right: 397px;
+    width: 184px
+}
+
+.choose-house__house--3 {
+    top: 237px;
+    left: 447px;
+    width: 129px
+}
+
+.choose-house__house--4 {
+    top: 243px;
+    left: 338px;
+    width: 120px
+}
+
+.choose-house__link {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.choose-house__text-block {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    right: 4%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.choose-house__name,
+.choose-house__number {
+    position: relative;
+    color: #fff;
+    display: inline-block
+}
+
+.choose-house__number {
+    border-radius: 50%;
+    width: 32px;
+    text-align: center;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.6)
+}
+
+.choose-house__name {
+    top: 54%;
+    font-size: 10px
+}
+
+.choose-house__img-house {
+    width: 100%;
+    height: auto
+}
+
+.choose-house__lists-desc {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(52, 52, 52, 0.1);
+    display: none
+}
+
+.choose-house__item-desc {
+    width: 34%;
+    display: inline-block
+}
+
+.choose-house__number-desc {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid rgba(34, 166, 98, 0.6);
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #22a662;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1px
+}
+
+.choose-house__name-desc {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px
+}
+
+
+.choose-house_tver .choose-house__img-bg {
+    display: block
+}
+
+.choose-house_tver .choose-house__text-block {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.choose-house_tver .choose-house__name {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 140px;
+    left: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.choose-house_tver .choose-house__number {
+    display: none
+}
+
+.choose-house_tver .choose-house__house--1 {
+    top: 230px;
+    right: 545px;
+    width: 256px;
+    height: 220px
+}
+
+.choose-house_tver .choose-house__house--2 {
+    top: 176px;
+    right: 289px;
+    width: 238px;
+    height: 224px
+}
+
+.choose-house_tver .choose-house__house--3 {
+    top: 89px;
+    left: 658px;
+    width: 130px;
+    height: 192px
+}
+
+.choose-house_tver .choose-house__house--4 {
+    top: 73px;
+    left: 413px;
+    width: 161px;
+    height: 194px
+}
+
+.choose-house_tver .choose-house__house--5 {
+    top: 227px;
+    left: 132px;
+    width: 195px;
+    height: 157px
+}
+
+.choose-house_tver .choose-house__house--6 {
+    top: 209px;
+    left: 858px;
+    width: 208px;
+    height: 132px
+}
+
+.choose-house_tver .choose-house__text-block--1 {
+    left: 70px;
+    top: 60px
+}
+
+.choose-house_tver .choose-house__text-block--2 {
+    left: 20px;
+    top: 145px
+}
+
+.choose-house_tver .choose-house__text-block--3 {
+    left: 4px;
+    top: 60px
+}
+
+.choose-house_tver .choose-house__text-block--4 {
+    left: 20px;
+    top: 100px
+}
+
+.choose-house_tver .choose-house__text-block--5 {
+    left: 40px;
+    top: 70px
+}
+
+.choose-house_tver .choose-house__text-block--6 {
+    left: 40px;
+    top: 50px
+}
+
+.choose-house_perm-dominant .choose-house__house--1 {
+    top: 17.3%;
+    right: 25.5%;
+    width: 10%;
+    height: 69%
+}
+
+.choose-house_perm-dominant .choose-house__house--2 {
+    top: 3.4%;
+    right: 35.5%;
+    width: 21%;
+    height: 83%
+}
+
+.choose-house_perm-dominant .choose-house__house--3 {
+    top: 38.4%;
+    right: auto;
+    left: 33%;
+    width: 10.6%;
+    height: 48%
+}
+
+.choose-house_perm-dominant .choose-house__house--4 {
+    top: 31.4%;
+    right: auto;
+    left: 18%;
+    width: 18%;
+    height: 56%
+}
+
+.choose-house_perm-dominant .choose-house__name {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 140px;
+    left: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.choose-house_perm-hapinness .choose-house__text-block {
+    left: 0%
+}
+
+.choose-house_perm-hapinness .choose-house__house--1 {
+    top: 54%;
+    right: 9.8%;
+    width: 32%;
+    height: 35%;
+}
+
+.choose-house_perm-hapinness .choose-house__house--2 {
+    top: 25%;
+    right: 36.5%;
+    width: 20%;
+    height: 61%;
+}
+
+.choose-house_perm-hapinness .choose-house__house--3 {
+    top: 23%;
+    right: auto;
+    left: 38.8%;
+    width: 5.4%;
+    height: 37%;
+}
+
+.choose-house_perm-hapinness .choose-house__house--4 {
+    top: 58.8%;
+    right: auto;
+    left: 37.8%;
+    width: 4.5%
+}
+
+.choose-house_perm-hapinness .choose-house__house--5 {
+    top: 21%;
+    right: auto;
+    left: 22.5%;
+    width: 15.6%;
+    height: 56.6%;
+}
+
+.choose-house_perm-hapinness .choose-house__house--6 {
+    top: 51.8%;
+    right: auto;
+    left: 8.1%;
+    width: 16.5%;
+    height: 26.4%
+}
+
+.choose-house_perm-hapinness .choose-house__name {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 140px;
+    left: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.choose-house_perm-nc .choose-house__img-bg {
+    width: 100%
+}
+
+.choose-house_perm-nc .choose-house__text-block {
+    left: 0%
+}
+
+.choose-house_perm-nc .choose-house__name {
+    left: 0%
+}
+
+.choose-house_perm-nc .choose-house__house--1 {
+    top: 46.8%;
+    right: 10.8%;
+    width: 13.8%;
+    height: 29.3%
+}
+
+.choose-house_perm-nc .choose-house__house--2 {
+    top: 37.9%;
+    right: 33.5%;
+    width: 17.3%;
+    height: 39%
+}
+
+.choose-house_perm-nc .choose-house__house--3 {
+    top: 6.4%;
+    right: auto;
+    left: 10.9%;
+    width: 27.9%;
+    height: 83%
+}
+
+.choose-house_ufa .choose-house__text-block {
+    left: 0%
+}
+
+.choose-house_ufa .choose-house__house--1 {
+    top: 30.3%;
+    right: 26.3%;
+    width: 15.6%;
+    height: 23%
+}
+
+.choose-house_ufa .choose-house__text-block--1 {
+    top: 25%
+}
+
+.choose-house_ufa .choose-house__house--2 {
+    top: 33.3%;
+    right: 43.3%;
+    width: 9.2%;
+    height: 17%
+}
+
+.choose-house_ufa .choose-house__text-block--2 {
+    top: 38%
+}
+
+.choose-house_ufa .choose-house__house--2-1 {
+    top: 35.8%;
+    right: auto;
+    left: 30.4%;
+    width: 12.2%;
+    height: 10%
+}
+
+.choose-house_ufa .choose-house__text-block--2-1 {
+    left: -14%;
+    top: 31%
+}
+
+.choose-house_ufa .choose-house__house--3 {
+    top: 41.5%;
+    right: auto;
+    left: 23.7%;
+    width: 18.9%;
+    height: 26%
+}
+
+.choose-house_ufa .choose-house__text-block--3 {
+    top: 38%
+}
+
+.choose-house_ufa .choose-house__house--4 {
+    top: 50.4%;
+    left: 17.1%;
+    width: 18.1%;
+    height: 31%
+}
+
+.choose-house_ufa .choose-house__text-block--4 {
+    top: 48%
+}
+
+.choose-house_ufa .choose-house__house--5 {
+    top: 43.8%;
+    left: 40.5%;
+    width: 14.4%;
+    height: 44.5%
+}
+
+.choose-house_ufa .choose-house__text-block--5 {
+    top: 51%
+}
+
+.choose-house_ufa .choose-house__house--6 {
+    top: 39.4%;
+    right: auto;
+    left: 59%;
+    width: 13.5%;
+    height: 39.1%
+}
+
+.choose-house_ufa .choose-house__text-block--6 {
+    top: 38%
+}
+
+.choose-house_ufa .choose-house__house--7 {
+    top: 26.1%;
+    right: auto;
+    left: 73.3%;
+    width: 12.4%;
+    height: 42.7%
+}
+
+.choose-house_ufa .choose-house__text-block--7 {
+    top: 38%
+}
+
+.choose-house_ufa .choose-house__house--8 {
+    top: 30.7%;
+    right: auto;
+    left: 85.1%;
+    width: 10.5%;
+    height: 32.1%
+}
+
+.choose-house_ufa .choose-house__text-block--8 {
+    top: 46%
+}
+
+.choose-house_ufa .choose-house__name {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 100px;
+    left: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    text-align: center
+}
+
+.choose-house_chelny .choose-house__img-bg {
+    width: 100%
+}
+
+.choose-house_chelny .choose-house__text-block {
+    left: 0% !important;
+    text-align: center
+}
+
+.choose-house_chelny .choose-house__house--1 {
+    top: 4.5%;
+    right: 77%;
+    width: 20.1%;
+    height: 73%
+}
+
+.choose-house_chelny .choose-house__text-block--1 {
+    top: 45%;
+    left: 31%
+}
+
+.choose-house_chelny .choose-house__house--2 {
+    top: 34.1%;
+    right: 67.3%;
+    width: 11.6%;
+    height: 30.4%
+}
+
+.choose-house_chelny .choose-house__text-block--2 {
+    left: 17%;
+    top: 38%
+}
+
+.choose-house_chelny .choose-house__house--3 {
+    top: 33%;
+    right: auto;
+    left: 31.6%;
+    width: 20.9%;
+    height: 28%
+}
+
+.choose-house_chelny .choose-house__text-block--3 {
+    left: 32%;
+    top: 48%
+}
+
+.choose-house_chelny .choose-house__house--4 {
+    top: 34.7%;
+    right: auto;
+    left: 51.3%;
+    width: 20.3%;
+    height: 30.1%
+}
+
+.choose-house_chelny .choose-house__text-block--4 {
+    left: 25%;
+    top: 48%
+}
+
+.choose-house_chelny .choose-house__house--5 {
+    top: 36.3%;
+    right: auto;
+    left: 69.8%;
+    width: 7.5%;
+    height: 30.1%
+}
+
+.choose-house_chelny .choose-house__text-block--5 {
+    left: 20%;
+    top: 48%
+}
+
+.choose-house_chelny .choose-house__house--6 {
+    top: 16%;
+    right: auto;
+    left: 69.9%;
+    width: 21.1%;
+    height: 52.1%
+}
+
+.choose-house_chelny .choose-house__text-block--6 {
+    left: 16% !important;
+    top: 10%
+}
+
+.choose-house_chelny .choose-house__house--7 {
+    top: 25%;
+    right: auto;
+    left: 75.3%;
+    width: 19.8%;
+    height: 63.1%
+}
+
+.choose-house_chelny .choose-house__text-block--7 {
+    left: 31%;
+    top: 50%
+}
+
+.choose-house_chelny .choose-house__house--8 {
+    top: 56.2%;
+    right: auto;
+    left: 32.9%;
+    width: 26.5%;
+    height: 39.1%
+}
+
+.choose-house_chelny .choose-house__text-block--8 {
+    left: 30%;
+    top: 58%
+}
+
+.choose-house_chelny .choose-house__name {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 92px;
+    left: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.choose-house_tumen .choose-house__img-bg {
+    width: 100%
+}
+
+.choose-house_tumen .choose-house__text-block {
+    left: 0% !important;
+    text-align: center
+}
+
+.choose-house_tumen .choose-house__house--1 {
+    top: 9.5%;
+    right: 77%;
+    width: 21.5%;
+    height: 68.9%
+}
+
+.choose-house_tumen .choose-house__text-block--1 {
+    top: 45%;
+    left: 31%
+}
+
+.choose-house_tumen .choose-house__house--2 {
+    top: 34.8%;
+    right: 71.4%;
+    width: 7.7%;
+    height: 30.4%
+}
+
+.choose-house_tumen .choose-house__text-block--2 {
+    left: 17%;
+    top: 38%
+}
+
+.choose-house_tumen .choose-house__house--3 {
+    top: 35.4%;
+    right: auto;
+    left: 26.4%;
+    width: 13%;
+    height: 22%
+}
+
+.choose-house_tumen .choose-house__text-block--3 {
+    left: 32%;
+    top: 48%
+}
+
+.choose-house_tumen .choose-house__house--4 {
+    top: 22%;
+    right: auto;
+    left: 37.8%;
+    width: 17.5%;
+    height: 38.1%
+}
+
+.choose-house_tumen .choose-house__text-block--4 {
+    left: 25%;
+    top: 48%
+}
+
+.choose-house_tumen .choose-house__house--5 {
+    top: 23.8%;
+    right: auto;
+    left: 54.3%;
+    width: 21.5%;
+    height: 32.1%
+}
+
+.choose-house_tumen .choose-house__text-block--5 {
+    left: 20%;
+    top: 48%
+}
+
+.choose-house_tumen .choose-house__house--6 {
+    top: 7.3%;
+    right: auto;
+    left: 77.8%;
+    width: 17.7%;
+    height: 61.1%
+}
+
+.choose-house_tumen .choose-house__text-block--6 {
+    top: 40%
+}
+
+.choose-house_tumen .choose-house__house--7 {
+    top: 45.3%;
+    right: auto;
+    left: 80.3%;
+    width: 18.3%;
+    height: 41.1%
+}
+
+.choose-house_tumen .choose-house__text-block--7 {
+    left: 31%;
+    top: 50%
+}
+
+.choose-house_tumen .choose-house__house--8 {
+    top: 50.8%;
+    right: auto;
+    left: 49.9%;
+    width: 25.9%;
+    height: 46.1%
+}
+
+.choose-house_tumen .choose-house__text-block--8 {
+    left: 30%;
+    top: 58%
+}
+
+.choose-house_tumen .choose-house__name {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 92px;
+    left: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}

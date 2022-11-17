@@ -1,0 +1,127 @@
+{
+  "data_commercial_property_fasade" : {
+
+
+    "title" : "Комерческая недвижимость",
+
+
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Обзор",
+          "url" : "#"
+        },
+        {
+          "name" : "О комплексе",
+          "url" : "#"
+        },
+        {
+          "name" : "Выбрать квартиру",
+          "url" : "#",
+          "active" : true
+        },
+        {
+          "name" : "Ход строительства",
+          "url" : "#"
+        },
+        {
+          "name" : "Как купить",
+          "url" : "#"
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Тихий центр"
+        }
+      ]
+    },
+
+    "title_block": " Комерческая недвижимость в ЖК Тихий центр ",
+
+
+    "lists": {
+
+      "items" : [
+        {
+          "name" : " Выбор дома ",
+          "href": " ./commercial-property-house.html "
+        },
+        {
+          "name" : " Выбор фасада (2 секция) ",
+          "active" : true
+        },
+        {
+          "name" : " Выбор отделки "
+        }
+      ]
+    },
+
+    "gallery" : {
+      "items" : [
+        {
+          "img": "./static/img/career/slide-item1.jpg",
+          "description": "ул. Шелканов",
+          "mask_link" : "https://87temb.axshare.com/#g=1&p=26__omercial_placement",
+          "mask_img" : "./static/img/commercial/mask-house.png"
+        },
+        {
+          "img": "./static/img/career/slide-item1.jpg",
+          "description": "ул. Вишневая",
+          "mask_link" : "https://87temb.axshare.com/#g=1&p=26__omercial_placement",
+          "mask_img" : "./static/img/commercial/mask-house.png"
+        },
+        {
+          "img": "./static/img/career/slide-item1.jpg",
+          "description": "ул. Яблуничная",
+          "mask_link" : "https://87temb.axshare.com/#g=1&p=26__omercial_placement",
+          "mask_img" : "./static/img/commercial/mask-house.png"
+        },
+        {
+          "img": "./static/img/career/slide-item1.jpg",
+          "description": "ул. Ореховая",
+          "mask_link" : "https://87temb.axshare.com/#g=1&p=26__omercial_placement",
+          "mask_img" : "./static/img/commercial/mask-house.png"
+        },
+        {
+          "img": "./static/img/career/slide-item1.jpg",
+          "description": "ул. Ореховая",
+          "mask_link" : "https://87temb.axshare.com/#g=1&p=26__omercial_placement",
+          "mask_img" : "./static/img/commercial/mask-house.png"
+        },
+        {
+          "img": "./static/img/career/slide-item1.jpg",
+          "description": "ул. Ореховая",
+          "mask_link" : "https://87temb.axshare.com/#g=1&p=26__omercial_placement",
+          "mask_img" : "./static/img/commercial/mask-house.png"
+        },
+        {
+          "img": "./static/img/career/slide-item1.jpg",
+          "description": "ул. Ореховая",
+          "mask_link" : "https://87temb.axshare.com/#g=1&p=26__omercial_placement",
+          "mask_img" : "./static/img/commercial/mask-house.png"
+        }
+      ]
+    },
+
+
+    "question" : true
+  }
+}

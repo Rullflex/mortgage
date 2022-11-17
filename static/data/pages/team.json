@@ -1,0 +1,195 @@
+{
+  "data_team":{
+    "title":"Team page",
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Компания",
+          "url" : "#"
+        },
+        {
+          "name" : "Команда",
+          "url" : "#",
+          "active" : true
+        },
+        {
+          "name" : "Карьера",
+          "url" : "#",
+          "active" : false
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#",
+        "active" : false
+      }
+
+    },
+
+
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "О компании",
+          "url" : "#"
+        },
+        {
+          "name" : "Команда"
+        }
+      ]
+    },
+
+
+
+    "poster" : {
+      "title" : "Команда",
+      "subtitle_line1": "Мы компания заслужившая за годы работы репутацию надежного застройщика, и за эту репутацию мы готовы отвечать лично. Каждый сотрудник компании несет ответственность за качество работы.",
+      "image" : "./static/img/team/team_bg.png",
+      "scrolldown_text" : "вниз"
+    },
+
+
+
+    "branch_team":{
+      "title":"Команда в филиалах",
+      "buttons":[
+        {
+          "active":true,
+          "href":"#",
+          "text":"Ижевский филиал"
+        },
+        {
+          "btn_sec":true,
+          "href":"#",
+          "text":"Управляющая компания (Ижевск)"
+        }
+      ],
+      "players":[
+        {
+          "img":{
+            "src": "static/img/team/player1.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Дмитрий Сергеевич",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player2.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Роман Пантюхин",
+          "position": "Заместитель генерального директора по правовым вопросам ООО 'Управляющая компания 'ТАЛАН'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player3.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Ольга Нуриева",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player1.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Дмитрий Сергеевич",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player2.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Дмитрий Сергеевич",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player3.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Дмитрий Сергеевич",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player1.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Дмитрий Сергеевич",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player2.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Дмитрий Сергеевич",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        },
+        {
+          "img":{
+            "src": "static/img/team/player3.png",
+            "alt": "",
+            "title": "Игрок"
+          },
+          "name":"Дмитрий Сергеевич",
+          "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+          "btn":{
+            "url":"#",
+            "text": "написать"
+          }
+        }
+      ]
+    }
+  }
+}

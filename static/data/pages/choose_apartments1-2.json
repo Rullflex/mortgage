@@ -1,0 +1,135 @@
+{
+  "data_choose_apartments_1_2" : {
+
+
+    "title" : "Выбор квартиры",
+
+
+
+    "header_submenu" : {
+
+      "items" : [
+        {
+          "name" : "Обзор",
+          "url" : "#"
+        },
+        {
+          "name" : "О комплексе",
+          "url" : "#"
+        },
+        {
+          "name" : "Выбрать квартиру",
+          "url" : "#",
+          "active" : true
+        },
+        {
+          "name" : "Ход строительства",
+          "url" : "#"
+        },
+        {
+          "name" : "Как купить",
+          "url" : "#"
+        }
+      ],
+
+      "link" : {
+        "text" : "Заказать звонок",
+        "url" : "#"
+      }
+    },
+
+    "breadcrumbs" : {
+      "items" : [
+        {
+          "name" : "Главная",
+          "url" : "#"
+        },
+        {
+          "name" : "Недвижимость",
+          "url" : "#"
+        },
+        {
+          "name" : "Тихий центр"
+        }
+      ]
+    },
+
+    "head" : {
+      "title" : "Тихий центр",
+      "percent" : 80,
+      "text" : "Готовность корпуса №2"
+    },
+
+
+    "lists": {
+
+      "items" : [
+        {
+          "name" : " Выбор дома ",
+          "active" : true
+        },
+        {
+          "name" : " Выбор квартиры "
+        },
+        {
+          "name" : " Выбор отделки "
+        }
+      ]
+    },
+
+    "house_box": {
+      "img-bg" : " ./static/img/choose_apartments/choose_house.jpg ",
+      "houses" : [
+        {
+          "house" : "1",
+            "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/choose_apartments/house_1.svg ",
+          "number" : " 1 ",
+          "address" : " ул. Циалковского 22 "
+        },
+        {
+          "house" : "2",
+            "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/choose_apartments/house_2.svg ",
+          "number" : " 2 ",
+          "address" : " ул. Циалковского 23 "
+        },
+        {
+          "house" : "3",
+            "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/choose_apartments/house_3.svg ",
+          "number" : " 3 ",
+          "address" : " ул. Циалковского 24 "
+        },
+        {
+          "house" : "4",
+            "link_page": "./choose-apartments-2_2.html",
+          "img" : " ./static/img/choose_apartments/house_4.svg ",
+          "number" : " 4 ",
+          "address" : " ул. Циалковского 25 "
+        }
+      ]
+    },
+    "description" : [
+      {
+        "number" : " 1 ",
+        "address" : " ул. Циалковского 22 "
+      },
+      {
+        "number" : " 2 ",
+        "address" : " ул. Циалковского 23 "
+      },
+      {
+        "number" : " 3 ",
+        "address" : " ул. Циалковского 24 "
+      },
+      {
+        "number" : " 4 ",
+        "address" : " ул. Циалковского 25 "
+      }
+    ],
+
+
+    "question" : true
+  }
+}

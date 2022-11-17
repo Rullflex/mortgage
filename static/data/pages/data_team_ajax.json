@@ -1,0 +1,71 @@
+{
+  "data_team_ajax":{
+    "players": [
+      {
+        "img":{
+          "src": "static/img/team/player1.png",
+          "alt": "",
+          "title": "Игрок"
+        },
+        "name":"Дмитрий Сергеевич",
+        "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+        "btn":{
+          "url":"#",
+          "text": "написать"
+        }
+      },
+      {
+        "img":{
+          "src": "static/img/team/player2.png",
+          "alt": "",
+          "title": "Игрок"
+        },
+        "name":"Дмитрий Сергеевич",
+        "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+        "btn":{
+          "url":"#",
+          "text": "написать"
+        }
+      },
+      {
+        "img":{
+          "src": "static/img/team/player3.png",
+          "alt": "",
+          "title": "Игрок"
+        },
+        "name":"Дмитрий Сергеевич",
+        "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+        "btn":{
+          "url":"#",
+          "text": "написать"
+        }
+      },
+      {
+        "img":{
+          "src": "static/img/team/player1.png",
+          "alt": "",
+          "title": "Игрок"
+        },
+        "name":"Дмитрий Сергеевич",
+        "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+        "btn":{
+          "url":"#",
+          "text": "написать"
+        }
+      },
+      {
+        "img":{
+          "src": "static/img/team/player2.png",
+          "alt": "",
+          "title": "Игрок"
+        },
+        "name":"Дмитрий Сергеевич",
+        "position": "Директор ООО 'ТАЛАН-ИЖЕВСК'",
+        "btn":{
+          "url":"#",
+          "text": "написать"
+        }
+      }
+    ]
+  }
+}

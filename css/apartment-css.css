@@ -1,0 +1,1078 @@
+.go-back-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.go-back-link a {
+    font-size: 14px;
+    color: #343434;
+    width: 290px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2bc57;
+    border-radius: 30px;
+}
+.tab-panels .gallery__text {
+    margin-top: 30px;
+}
+
+/* tabs */
+
+.tab-head-g {
+    width: 100%;
+    height: 59px;
+    background: #2aa662;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;    
+    margin-bottom: 35px;
+}
+.tab-item-g {
+    color: #fff;
+    padding: 6px 20px;
+    box-sizing: border-box;
+    
+    border-radius: 30px;
+
+}
+.tab-item-g.active {
+    color: #2aa662;
+    background: #fff
+}
+.tab-panels .panel {
+display: none;
+}
+.tabs-top .gallery__h3 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-left: 0;
+}
+.tabs-top .gallery__content.gallery__content_desk {
+    padding-left: 0;
+}
+.tabs-top .gallery {
+	padding: 18px 0 66px;
+	width: 100%;
+}
+.tabs-top .button_green {
+    font-weight: 500;
+    width: 300px;
+    margin-left: 0;
+}
+.tabs-top .int {
+    display: inline-block;
+    vertical-align: top;
+    font: 500 14px/1.8 'Northern', Arial, Helvetica, sans-serif;
+    color: #f9b851;
+    letter-spacing: .1px;
+    padding-left: 0px;
+    max-width: calc(100% - 170px);
+    margin-bottom: 31px;
+}
+.tabs-top .add-favorite {
+font-size: 12px;
+color: #22a662;
+margin-top: 14px;
+display: inline-block;
+font-weight: 400;
+}
+.tabs-top .links-bl {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tab-panels .panel.active { display: block; }
+  
+
+
+/* how to buy tabs */
+
+.how-to-buy-c {
+    background: #2aa662;
+
+}
+.tabs-but {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tabs-left {
+    position: relative;
+    background: rgba(255,255,255,.1);
+    width: 300px;
+    flex: 1 0 300px;
+    max-width: 300px;
+}
+.tabs-right {
+    width: calc(100% - 300px);
+    flex: 1 0 calc(100% - 300px);
+    max-width: calc(100% - 300px);
+    padding-left: 40px;
+}
+.tabs-left:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50vw;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+    transform: translateX(-100%);
+}
+.how-to-buy-c .how-to-buy__h2 {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    font: 500 44px/1 'Northern', Arial, Helvetica, sans-serif;
+}
+
+.tab-item-h {
+    font-size: 24px;
+    color: #feffff;
+    font-weight: 400;
+    padding-right: 42px;
+    box-sizing: border-box;
+    position: relative;
+    height: 84px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    
+}
+.tab-item-h span {
+    position: relative;
+    z-index: 1;
+}
+.tab-item-h.active {
+    
+    background: #2aa662;
+}
+.tab-item-h.active:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50vw;
+    height: 100%;
+    background: #2aa662;
+    transform: translateX(-100%);
+    z-index: 0;
+}
+.tabs-but-item  {
+    margin-top: 36px;
+}
+.tabs-but-item .calc{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tabs-but-item .calc.stavka{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.tabs-but-item .title {
+    background: transparent;
+}
+.tabs-but-item .calc .title {
+    background: transparent;
+}
+.tabs-right .calc .title .h3 {
+    background: transparent;
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 1.25;
+}
+.tabs-but-item .calc__fieldset--left legend, .tabs-but-item .calc__fieldset--right legend {
+	width: 100%;
+	border-bottom: 0px solid rgba(255,255,255,0);
+	font-size: 24px;
+	font-weight: 400;
+	color: rgba(255,255,255,1);
+	line-height: 1;
+}
+.tabs-but-item .calc .filters__heading_side_left {
+    max-width: 208px;
+}
+.tabs-but-item .calc_form .filters__section .ranges__input {
+	border-radius: 30px;
+	border: 1px solid rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0.1);
+    height: 35px;
+    width: 169px;
+    
+}
+.tabs-but-item .calc_form .filters__section {
+	border-bottom: 1px solid rgba(255,255,255,0);
+	margin-bottom: 0;
+    padding-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.tabs-but-item .calc_form .filters__section:after {
+    display: none;
+}
+.tabs-but-item  .calc_form .filters__section .filters__inner {
+	float: none;
+	width: 170px;
+}
+.tabs-but-item .calc {
+	background-color: transparent;
+	margin:0;
+}
+.tabs-but-item .bank-section__item {
+	height: 60px;
+	border: 1px solid rgba(255,255,255,0.1);
+}
+
+.tabs-but-item  .calc_form .nouislider {
+    width: 100%;
+}
+
+.tabs-but-item .nouislider .noUi-handle-upper, .tabs-but-item .nouislider .noUi-handle-lower {
+	transform: translateX(-6px);
+}
+html:not([dir="rtl"]) .tabs-but-item .noUi-horizontal .noUi-handle {
+	right: auto;
+	left: -4px;
+}
+.tabs-but-item  .filters__section {
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+	padding: 29px 0 20px;
+	margin-bottom: 10px;
+}
+.calc_form .filters__section .filters__heading {
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+	float: none;
+}
+
+.tabs-but-item .navigation__btn {
+    width: 41px;
+    height: 41px;
+}
+.tabs-but-item .navigation__arrow {
+	position: absolute;
+	top: 17px;
+}
+.tabs-but-item .arrow.arrow_right.navigation__arrow {
+	right: 18px;
+}
+.tabs-but-item .navigation__btn_prev .navigation__arrow {
+	left: 18px;
+}
+.tabs-but-item .calc.stavka .navigation__content {
+	padding-left: 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+.tabs-but-item .bank-names {
+	width: 100%;
+	height: auto;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.18px;
+	margin-top: 10px;
+}
+.tabs-but-item  .calc__month-payment, .calc__month-payment--price, .tabs-but-item  .calc__month-payment--price2 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #fff;
+	letter-spacing: 0.3px;
+	width: auto;
+	display: inline-block;
+}
+.tabs-but-item .calc__month-payment {
+    width: auto;
+}
+.tabs-but-item .send-request {
+	font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 17px 0;
+    width: 300px;
+    max-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabs-but-item .calc__calculated-block {
+    padding: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.tabs-but-item .ls-calc {
+    width: 60%;
+}
+.tabs-but-item .calc__fieldset--bottom .calc__calculated--row {
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 8px;
+}
+.tabs-but-item .bank-names {
+    margin-top: 0;
+}
+.tabs-but-item .calc_form.calc_form-ipoteka {
+    margin-top: 0;
+}
+.tabs-left .how-to-buy__h2 {
+   padding-bottom: 65px;
+}
+
+.tabs-but-item .calc.stavka .calc__fieldset--right, .tabs-but-item   .calc.stavka .calc__fieldset--left {
+    background: rgba(255,255,255,0.05);
+    width: 48.7%;
+    padding: 14px;
+    box-sizing: border-box;
+}
+.tabs-but-item   .calc.stavka .calc__fieldset--right {
+    margin-left: 20px;
+}
+.tabs-but-item .calc_form .filters__section:last-child {
+    padding-bottom: 15px;
+}
+.tabs-but-item .calc_form .nouislider .noUi-target {
+    width: 164px;
+}
+.tabs-but-item .calc_form .nouislider .noUi-handle {
+	outline: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: none;
+	cursor: pointer;
+	top: -9px;
+}
+.tabs-but-item .calc_form .nouislider .noUi-connect {
+    height: 1px;
+}
+
+.tabs-but-item .filters__inner_side_right {
+    margin-left: 0;
+}
+.tabs-but-item .calc .calc__calculated-block {
+background: transparent;
+padding-left: 15px;
+}
+.tabs-but-item .vtor-calc .calc__fieldset--left, .tabs-but-item .vtor-calc .calc__fieldset--right {
+    background: rgba(255,255,255,0.05);
+    padding: 14px;
+    box-sizing: border-box;
+}
+.tabs-but-item .vtor-calc .calc__fieldset--left, .tabs-but-item .vtor-calc .calc__fieldset--right {
+    width: 49%;
+}
+.tabs-but-item .call-me__inner .call-items .call-title .heading .h1 {
+    font-size: 28px;
+}
+.tabs-but-item .call-me__inner .call-items {
+    display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	height: auto;
+	flex-direction: column;
+}
+
+
+
+.call-me__inner .call-items .call-title .heading .h1 {
+	color: #fff;
+	font-size: 38px;
+	font-weight: 500;
+	line-height: normal;
+}
+.call-me__inner .call-items .call-phone {
+	padding: 0 20px;
+}
+.form-row {
+	font-size: 0;
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+}
+.call-me__inner .call-items .call-phone .form-row {
+	margin-bottom: 0;
+}
+
+.form-field {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	position: relative;
+	padding-top: 24px;
+	padding-bottom: 8px;
+}
+.form-label {
+	font-weight: normal;
+	font-size: 13px;
+	color: #999999;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	padding: 0 9px;
+	z-index: 2;
+	transform: translateY(28px);
+	transform-origin: bottom left;
+	transition-property: transform, color;
+	transition-duration: 0.4s;
+	transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+	letter-spacing: .2px;
+}
+.call-me__inner .call-items .call-phone .input {
+	background: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid #fff;
+	width: 266px;
+    font-size: 12px;
+    box-shadow: 0 0 transparent;
+}
+.call-me__inner .call-items .call-phone .form-label {
+	font-size: 12px;
+	line-height: 22px;
+	color: #fff;
+	transform: none;
+}
+.call-me__inner .call-items .call-button .button {
+	background: #fff;
+	color: #1E9B57;
+	width: 360px;
+    border-radius: 60px;
+    border: 1px solid transparent;
+    
+}
+.tabs-but-item .call-me__inner .call-items .call-button .button {
+    margin-top: 30px;
+}
+.tabs-but-item .call-me__inner .call-items .call-phone {
+    margin-top: 30px;
+}
+.tabs-but-item .calc_form-bottom.clearfix {
+	background-color: rgba(255,255,255,0.15);
+}
+.call-me__inner .call-items .call-button .button .button-blip_hover {
+	background: #1E9B57;
+}
+.call-me__inner .call-items .call-phone .input {
+	background: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid #fff;
+	width: 266px;
+	font-size: 12px;
+}
+.form-input {
+	height: 44px;
+	background: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	box-sizing: border-box;
+	width: 295px;
+	color: #343434;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0 9px;
+	position: relative;
+	z-index: 1;
+	transition: all .5s ease;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+.button-blip {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	transition: all .5s ease;
+	z-index: -1;
+	transform: scale(0) translateY(-50%) translateY(34px);
+	transform-origin: 50% 30px;
+	width: 100%;
+}
+.call-me__inner .call-items .call-button .button:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+.button:hover .button-blip_hover {
+	transform: scale(1.5) translateY(-50%) translateY(48px);
+}
+.button-blip:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+.tabs-but-item  .calc .title {
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+}
+
+
+.calc__fieldset--left, .calc__fieldset--right {
+    background: rgba(255,255,255,0.05);
+}
+
+
+
+#panelC2 .calc__fieldset--left {
+	padding: 14px;
+	box-sizing: border-box;
+	width: 55%;
+}
+#panelC2 .calc__fieldset--left legend {
+    position: relative;
+    top: 24px;
+}
+#panelC2 .calc__fieldset--right {
+	width: 42.5%;
+}
+#panelC2 .calc__fieldset--right .calc__calculated-block {
+    padding-bottom: 30px;
+}
+
+#panelC3 .calc__fieldset--left {
+    width: 52%;
+}
+#panelC3 .calc__fieldset--right {
+    width: 46%;
+}
+#panelC3  .calc_form .filters__section:last-of-type .filters__inner {
+    width: 100%;
+}
+
+.tab-item-h:focus {
+    outline: none;
+}
+
+
+
+.agr-wr {
+    margin: 0 auto; margin-top: 20px; width: 70%; display: block;
+}
+
+@media (max-width: 1200px) {
+    .tabs-right .calc .title .h3 {
+        background: transparent;
+        font-size: 24px;
+        margin-bottom: 30px;
+        line-height: 1.25;
+    }
+    #panelC3 .calc__fieldset--left {
+        width: 100%;
+    }
+    #panelC3 .calc__fieldset--right {
+        width: 100%;
+    }
+    #panelC2.tabs-but-item .calc_form .filters__section {
+        border-bottom: 1px solid rgba(255,255,255,0);
+        margin-bottom: 0;
+        padding-top: 19px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #panelC2 .calc__fieldset--right {
+        width: 100%;
+        position: static;
+    }
+   .tabs-but-item .send-request {
+        width: 100%;
+        max-width: 286px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .tabs-right {
+        width: calc(100% - 300px);
+        flex: 1 0 calc(100% - 300px);
+        max-width: calc(100% - 300px);
+        padding-left: 29px;
+    }
+    .tabs-left {
+        position: relative;
+        background: #40af72;
+        width: 300px;
+        flex: 1 0 300px;
+        max-width: 300px;
+    }
+    .tabs-but-item .calc.stavka .calc__fieldset--right, .tabs-but-item .calc.stavka .calc__fieldset--left {
+        width: 100%;
+    }
+    .tabs-but-item .calc.stavka .calc__fieldset--right {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .tabs-left:before {
+        display: none;
+    }
+    .how-to-buy-c .how-to-buy__h2 {
+        font-size: 40px;
+        padding-left: 30px;
+    }
+    .tab-item-h {
+        padding-left: 30px;
+        padding-right: 0px;
+        background: #40af72;
+    }
+    .tabs-left {
+        max-height: 560px;
+    }
+    .tabs-left {
+        background: transparent;
+    }
+    .tab-panels .gallery__diagram_tab {
+        display: none;
+    }
+    .tabs-but {
+        position: relative;
+    }
+    .tabs-but-item .calc.stavka .calc_form-bottom {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+    }
+    .tabs-but-item .ls-calc {
+        width: 100%;
+    }
+    .tabs-but-item .bank-names {
+        width: 100%;
+    }
+    .tabs-but-item {
+        margin-top: 29px;
+    }
+    #panelC2 .calc__fieldset--left, .calc__fieldset--right {
+        width: 100%;
+        position: static;
+    }
+    #panelC2 .calc__fieldset--right {
+        margin-top: 30px; 
+        -webkit-transform: translateY(-0%);
+-ms-transform: translateY(-0%);
+transform: translateY(-0%);
+    }
+    #panelC2.tabs-but-item .calc_form .filters__section .filters__inner {
+        float: none;
+        width: 150px;
+    }
+    .tabs-but-item .vtor-calc .calc__fieldset--left, .tabs-but-item .vtor-calc .calc__fieldset--right {
+        width: 100%;
+    }
+    .tabs-but-item .vtor-calc .calc__fieldset--right {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 807px) {
+    .agr-wr {
+        width: 100%; 
+    }
+    .tabs-but-item  .form__field {
+        display: flex !important;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #panelC2 .calc__fieldset--left {
+        padding: 30px;
+    }
+    .call-me__inner .call-items .call-button .button {
+        width: 300px;
+    }
+    .tabs-left .slick-prev, .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    #panelC3 .calc__fieldset--right {
+        margin-top: 0;
+    }
+    .tabs-but-item .form__button {
+        margin: 0 auto;
+        margin-top: -6px;
+    }
+    .filters__heading br {
+        display: none;
+    }
+    #panelC2.tabs-but-item .calc_form .filters__section {
+        border-bottom: 1px solid rgba(255,255,255,0);
+        margin-bottom: 0;
+        padding-top: 19px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .tabs-but-item .calc_form .filters__section {
+        border-bottom: 1px solid rgba(255,255,255,0);
+        margin-bottom: 0;
+        padding-top: 19px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .tabs-but-item .calc.stavka .navigation__content {
+        padding-left: 0;
+        margin-top: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .tabs-but-item .call-me__inner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    .tabs-top .tab-head-g {
+        position: relative;
+        z-index: 5;
+    }
+    .tab-item-g {
+        position: relative;
+        z-index: 5;
+    }
+    .tabs-top .tab-head-g:before {
+        content: '';
+        width: 100vw;
+        height: 100%;
+        left: -15px;
+        top: 0px;
+        background: #40af72;
+        position: absolute;
+    }
+    #panelC2 .calc_form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calc__block .vtor-calc .calc_form .filters__section .filters__heading {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .tabs-but-item .send-request {
+        width: 100%;
+        max-width: 286px;
+    }
+    .tabs-top .gallery__h3 {
+        margin-top: 0;
+        font-size: 32px;
+
+        font-weight: 500;
+    }
+    .tabs-mob-slide .slick-prev:before {
+        content: '';
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAVklEQVQImV3OwQ1AUBCEYb0QLiRUwMmF1jRCExqRUMknm3jJi8NMsn92Z7ZArh5HDlrcmBKo8WCOOUCJC2u6Cjux5dlh1be55DDU/DOTuq99/P85YH8B0J+RSE7arlUAAAAASUVORK5CYII=') no-repeat center;
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+    .tabs-mob-slide .slick-prev {
+        left: 0;
+        z-index: 30;
+    }
+    .tabs-mob-slide .slick-next {
+        right: 0;
+        z-index: 30;
+    }
+    .tabs-mob-slide .slick-next:before {
+        content: '';
+        background:   url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAXklEQVQImW3NQQrCUAyE4XgVC7rpou0FdKOb9my9h3gmwZ7kkzxe9S0MTAiT4Z/AAwPyLsp1xRt9a6bu2HBqzdSCF46H8vnNGhFTm5xrstuNW2Wed+blX/sT4xdDfABVk4TDVMxinQAAAABJRU5ErkJggg==') no-repeat center;
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+    .how-to-buy-c .how-to-buy__h2 {
+        z-index: 5;
+        padding-bottom: 30px;
+        font-size: 32px;
+        padding-left: 0;
+    }
+    .tabs-but {
+        position: relative;
+    }
+    .tabs-mob-slide {
+        /* background: #40af72; */
+    }
+    .tabs-but.tab-panels {
+        position: relative;
+    }
+    .tabs-but.tab-panels:after {
+        content: '';
+        width: 100vw;
+        height: 85px;
+        left: -15px;
+        top: 92px;
+        background: #40af72;
+        position: absolute;
+        border-top: 1px;
+        border-bottom: 1px;
+        border-color: rgba(255,255,255,.2);
+    }
+    .tabs-left {
+        width: 100%;
+        flex: 1 0 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+        position: relative;
+    }
+    .tabs-left .slick-list {
+        z-index: 5;
+    }
+    .tabs-left .slick-initialized .slick-list {
+        margin: 0;
+        margin-left: 15px;
+        width: calc(100% - 30px);
+    }
+    
+    .tabs-left .slick-initialized .slick-list .slick-slide {
+        padding: 0;
+        border-bottom: 2px solid transparent;
+    }
+    .tabs-left .slick-initialized .slick-list .slick-slide.tab-item-h {
+         background: transparent;
+    }
+    .tabs-left .slick-initialized .slick-list .slick-slide
+    .tabs-left .slick-initialized .slick-list .slick-slide.tab-item-h.active {
+        border-bottom: 2px solid #fff;
+    }
+    /* .tabs-left:after {
+        content: '';
+        width: 100vw;
+        height: 100%;
+        left: -15px;
+        top: 0;
+        background: #40af72;
+        position: absolute;
+    } */
+    
+    .tabs-left .slick-initialized .slick-list .slick-slide.slick-current.slick-active:before {
+        content: '';
+        width: calc(100% - 20px);
+        left: 10px;
+        bottom: -2px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+    }
+    .tabs-right {
+        width: 100%;
+        flex: 1 0 100%;
+        max-width: 100%;
+        padding-left: 0px;
+    }
+    .tab-item-h {
+        padding-left: 0px;
+        padding-right: 0px;
+        position: relative;
+    }
+    .tab-item-h.active:before {
+        
+    }
+    .tab-item-h {
+    }
+    .tab-item-h span {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background: #40af72;
+        padding-left: 20px;
+        font-size: 22px;
+        padding-right: 20px;
+        height: 84px;
+    }
+    .tabs-mob-slide.slick-initialized.slick-slider {
+        width: 100%;
+    }
+    .tabs-but-item .calc.stavka .calc__fieldset--right, .tabs-but-item .calc.stavka .calc__fieldset--left {
+        width: 47%;
+    }
+    .tabs-but-item .calc_form.calc_form-ipoteka {
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-bottom: 0;
+        
+    }
+    .tabs-but-item .calc.stavka .calc_form-bottom {
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tabs-but-item .calc__calculated-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #panelC2 .calc__fieldset--left, .calc__fieldset--right {
+        width: 100%;
+    }
+    #panelC2 .calc__calculated--row {
+        width: 100%;
+        border-bottom: 0px solid rgba(255,255,255,0.1);
+    }
+    .tabs-but-item .vtor-calc .calc_form .filters__section .filters__heading {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tabs-mob-slide:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -15px; 
+        width: 100vw;
+        height: 1px;
+        background: rgba(255,255,255,.2);
+        z-index: 60;
+    }
+    .tabs-mob-slide:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -15px; 
+        width: 100vw;
+        height: 1px;
+        background: rgba(255,255,255,.2);
+        z-index: 60;
+    }
+}
+
+@media (max-width: 807px) {
+    
+    .tabs-top .int {
+        display: inline-block;
+        vertical-align: top;
+        font: 500 14px/1.8 'Northern', Arial, Helvetica, sans-serif;
+        color: #f9b851;
+        letter-spacing: .1px;
+        padding-left: 0px;
+        max-width: 100%;
+        margin-bottom: 31px;
+        text-align: center;
+        width: 100%;
+    } 
+    .tabs-top .button_green {
+        max-width: 300px;
+        width: 100%;
+        border: 1px solid;
+        font-size: 14px;
+        letter-spacing: 0px;
+        margin: 0 auto;
+    }
+    .tabs-top .links-bl {
+        width: 100%;
+    }
+    #panel1 .wrap_mobile_full {
+        max-width: 100% !important;
+        padding: 0 0px !important;
+    }
+    .tabs-but-item .calc.stavka .calc_form-bottom {
+        margin-top: 30px;
+    }
+    .wrap-tab .calc__fieldset--left {
+        margin-bottom: 0;
+    }
+    .tabs-but-item .calc_form.calc_form-ipoteka {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .tabs-but-item .calc.stavka .calc__fieldset--right, .tabs-but-item .calc.stavka .calc__fieldset--left {
+        width: 100%;
+    }
+    .tabs-but-item .calc_form .filters__section .ranges__input {
+        width: 145px;
+    }
+    #panelC3.tabs-but-item .calc_form .filters__section .ranges__input {
+        width: 180px;
+    }
+    .tabs-but-item .filters__section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 560px) {
+    .tab-head-g {
+        height: auto;
+        flex-direction: column;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .tab-item-g {
+        margin-bottom: 12px;
+    }
+    .tab-item-g:last-of-type {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 480px) {
+    .tabs-but-item .calc_form .filters__section .filters__inner {
+        position: static;
+        left: 0%; 
+        -webkit-transform: translateX(-0%); 
+        -ms-transform: translateX(-0%);
+        transform: translateX(-0%);
+        margin: 0 auto;
+    }
+}

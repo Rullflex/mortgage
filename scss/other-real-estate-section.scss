@@ -1,0 +1,19 @@
+.other-real-estate-section {
+  margin: 10px 0 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin: 60px 0 0;
+  }
+}
+
+.other-real-estate-section__inner {
+}
+
+.other-real-estate-section__title {
+  @include heading-3();
+  @include page-inner();
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: 30px;
+  }
+}

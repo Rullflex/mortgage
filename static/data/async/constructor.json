@@ -1,0 +1,263 @@
+{
+  "global": {
+    "flat_id": 777,
+    "flat_price": 2000000,
+    "flat_square": 200,
+    "square_price": 5000,
+    "loadingSrc": "./static/img/vue-constructor/loading.gif",
+    "texts": {
+      "sum": "Итого",
+      "currency": "руб",
+      "btns": "Купить квартиру с отделкой"
+    },
+    "form": {
+      "button": "Отправить",
+      "button_sending": "Отправка...",
+      "sended": "Отправлено!",
+      "error": "Ошибка отправки",
+      "postLinks": {
+        "fullPrice": "http://httpbin.org/post"
+      },
+      "fields": [
+        {
+        "name": "Имя"
+        },
+        {
+        "name": "Телефон"
+        }
+      ],
+      "afterFilteForm": {
+        "title": "Варианты покупки:",
+        "forms": [
+          {
+            "id": 0,
+            "name": "Вся сумма",
+            "postLinks": "http://httpbin.org/post"
+          },
+          {
+            "id": 1,
+            "name": "В зачет жилья",
+            "postLinks": "http://httpbin.org/post"
+          }
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Комната",
+      "filters": [
+        {
+          "name": "Стены",
+          "items": [
+            {
+              "name": "Бежевый",
+              "src": "./static/img/vue-constructor/room/walls/beig.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "25000", 
+              "preview": "./static/img/vue-constructor/preview/room/walls/beig.jpg",
+              "type": "Стены"
+            },
+            {
+              "name": "Бежево-розовый",
+              "src": "./static/img/vue-constructor/room/walls/beig_pink.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "15000", 
+              "preview": "./static/img/vue-constructor/preview/room/walls/beig_pink.jpg",
+              "type": "Стены"
+            },
+            {
+              "name": "Оливковый",
+              "src": "./static/img/vue-constructor/room/walls/olive.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "30000", 
+              "preview": "./static/img/vue-constructor/preview/room/walls/olive.jpg",
+              "type": "Стены"
+            },
+            {
+              "name": "Pозовый",
+              "src": "./static/img/vue-constructor/room/walls/pink.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "56000", 
+              "preview": "./static/img/vue-constructor/preview/room/walls/pink.jpg",
+              "type": "Стены"
+            },
+            {
+              "name": "Светло-бежевый",
+              "src": "./static/img/vue-constructor/room/walls/light_beige.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "85000", 
+              "preview": "./static/img/vue-constructor/preview/room/walls/light_beig.jpg",
+              "type": "Стены"
+            },
+            {
+              "name": "Симфония",
+              "src": "./static/img/vue-constructor/room/walls/simphone.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "44000", 
+              "preview": "./static/img/vue-constructor/preview/room/walls/simphone.jpg",
+              "type": "Стены"
+            }
+          ]
+        },
+        {
+          "name": "Полы",
+          "items": [
+            {
+              "name": "Дуб каньон",
+              "src": "./static/img/vue-constructor/room/floor/oak_canyon.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "56000", 
+              "preview": "./static/img/vue-constructor/preview/room/floor/oak_canyon.png",
+              "type": "Полы"
+            },
+            {
+              "name": "Дуб меринос",
+              "src": "./static/img/vue-constructor/room/floor/oak_merino.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "44000", 
+              "preview": "./static/img/vue-constructor/preview/room/floor/oak_merino.png",
+              "type": "Полы"
+            },
+            {
+              "name": "Дуб пастельный",
+              "src": "./static/img/vue-constructor/room/floor/oak_pastel.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "15000", 
+              "preview": "./static/img/vue-constructor/preview/room/floor/oak_pastel.png",
+              "type": "Полы"
+            },
+            {
+              "name": "Ддуб роял",
+              "src": "./static/img/vue-constructor/room/floor/oak_royal.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "30000", 
+              "preview": "./static/img/vue-constructor/preview/room/floor/oak_royal.png",
+              "type": "Полы"
+            }
+          ]
+        },
+        {
+          "name": "Двери",
+          "items": [
+            {
+              "name": "Венге",
+              "src": "./static/img/vue-constructor/room/doors/vange.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "56000", 
+              "preview": "./static/img/vue-constructor/preview/room/doors/vange.jpg",
+              "type": "Двери"
+            },
+            {
+              "name": "Дуб беленый",
+              "src": "./static/img/vue-constructor/room/doors/oak_white.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "15000", 
+              "preview": "./static/img/vue-constructor/preview/room/doors/oak_white.jpg",
+              "type": "Двери"
+  
+            },
+            {
+              "name": "Миланский орех",
+              "src": "./static/img/vue-constructor/room/doors/milan_nut.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "25000", 
+              "preview": "./static/img/vue-constructor/preview/room/doors/milan_nut.jpg",
+              "type": "Двери"
+            }
+          ]
+        },
+        {
+          "name": "Оборудование",
+          "items": [
+            {
+              "id": 0,
+              "name": "Бризер",
+              "src": "./static/img/vue-constructor/room/equipment/brizer-shadow.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "500", 
+              "preview": "./static/img/vue-constructor/preview/room/equipment/brizer-shadow.jpg",
+              "type": "Оборудование"
+            },
+            {
+              "id": 1,
+              "name": "Видеодо- мофон",
+              "src": "./static/img/vue-constructor/room/equipment/videomophone-shadow.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "1000", 
+              "preview": "./static/img/vue-constructor/preview/room/equipment/videomophone-shadow.jpg",
+              "type": "Оборудование"
+            },
+            {
+              "id": 2,
+              "name": "Кондиционер",
+              "src": "./static/img/vue-constructor/room/equipment/conditioner-shadow.png",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "1500", 
+              "preview": "./static/img/vue-constructor/preview/room/equipment/conditioner-shadow.jpg",
+              "type": "Оборудование"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Санузел",
+      "filters": [
+        {
+          "name": "Стены",
+          "items": [
+            {
+              "name": "Бежевый и венге",
+              "src": "./static/img/vue-constructor/bathroom/walls/beig.jpg",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "56000", 
+              "preview": "./static/img/vue-constructor/preview/bathroom/walls/beig.png",
+              "type": "Стены"
+            },
+            {
+              "name": "Бежевый и коричневый",
+              "src": "./static/img/vue-constructor/bathroom/walls/beige_brown.jpg",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "30000", 
+              "preview": "./static/img/vue-constructor/preview/bathroom/walls/beige_brown.png",
+              "type": "Стены"
+            },
+            {
+              "name": "Лимонный и белый",
+              "src": "./static/img/vue-constructor/bathroom/walls/lemon.jpg",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "56000", 
+              "preview": "./static/img/vue-constructor/preview/bathroom/walls/lemon.png",
+              "type": "Стены"
+            },
+            {
+              "name": "Салатный и белый",
+              "src": "./static/img/vue-constructor/bathroom/walls/white.jpg",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "35", 
+              "preview": "./static/img/vue-constructor/preview/bathroom/walls/white.png",
+              "type": "Стены"
+            },
+            {
+              "name": "Сиреневый и белый",
+              "src": "./static/img/vue-constructor/bathroom/walls/lilac.jpg",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "6000", 
+              "preview": "./static/img/vue-constructor/preview/bathroom/walls/lilac.png",
+              "type": "Стены"
+            },  
+            {
+              "name": "Яблочный и белый",
+              "src": "./static/img/vue-constructor/bathroom/walls/apple.jpg",
+              "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit est deserunt nisi ut possimus, cumque eligendi asperiores tenetur. Obcaecati vitae eius porro temporibus!", 
+              "price": "78000", 
+              "preview": "./static/img/vue-constructor/preview/bathroom/walls/apple.png",
+              "type": "Стены"
+            }
+          ]
+        }    
+      ]
+    }
+  ]
+}
