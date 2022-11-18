@@ -2075,16 +2075,15 @@
 
         monthlyPayment: function (interestRate) {
             /*
-             * S — общий размер ипотеки
-             * P – месячная процентная ставка (т.е. годовая ставка, которая разделена на 12 мес.)
-             * M — срок ипотечного кредитования (считается в месяцах)
              * @returns ежемесячный платеж по кредиту, который и нужно рассчитать
              */
-            const s = this.housingCost - this.initialFee;
-            const p = interestRate / 12;
-            const m = this.creditTerm * 12;
+            const s = this.housingCost - this.initialFee; // общий размер ипотеки
+            const p = interestRate / 12; // месячная процентная ставка (т.е. годовая ставка, которая разделена на 12 мес.)
+            const m = this.creditTerm * 12; // срок ипотечного кредитования (считается в месяцах)
+
+            const k = (p * Math.pow(1 + p, m)) / (Math.pow(1 + p, m) - 1); // коэффициент аннуитета
             
-            return s * p / 1 - (1 + p) * (1 - m);
+            return k * s;
         },
 
         overpayment: function (interestRate) {
